@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window">
+    <property name="border_width">6</property>
+    <signal name="delete_event" handler="on_window_delete_event"/>
+    <child>
+      <object class="GtkVBox" id="vbox">
+        <property name="visible">True</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">6</property>
+        <child>
+          <object class="GtkHBox" id="hbox1">
+            <property name="visible">True</property>
+            <property name="spacing">6</property>
+            <child>
+              <object class="GtkComboBox" id="test_picker">
+                <property name="visible">True</property>
+                <property name="model">tests</property>
+                <child>
+                  <object class="GtkCellRendererText" id="cellrenderertext"/>
+                  <attributes>
+                    <attribute name="text">0</attribute>
+                  </attributes>
+                </child>
+              </object>
+              <packing>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkHButtonBox" id="hbuttonbox1">
+                <property name="visible">True</property>
+                <property name="spacing">6</property>
+                <child>
+                  <object class="GtkButton" id="go">
+                    <property name="label" translatable="yes">_Go</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="image">image1</property>
+                    <property name="use_underline">True</property>
+                    <signal name="clicked" handler="on_go_clicked"/>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">False</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="stop">
+                    <property name="label">gtk-stop</property>
+                    <property name="visible">True</property>
+                    <property name="sensitive">False</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="use_stock">True</property>
+                    <signal name="clicked" handler="on_stop_clicked"/>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">False</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHBox" id="hbox2">
+            <property name="visible">True</property>
+            <property name="spacing">6</property>
+            <child>
+              <object class="GtkLabel" id="label">
+                <property name="visible">True</property>
+                <property name="xalign">1</property>
+                <property name="label" translatable="yes">Use</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkRadioButton" id="glulxe">
+                <property name="label" translatable="yes">Glulx_e</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">False</property>
+                <property name="use_underline">True</property>
+                <property name="active">True</property>
+                <property name="draw_indicator">True</property>
+                <signal name="toggled" handler="on_glulxe_toggled"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkRadioButton" id="git">
+                <property name="label" translatable="yes">Gi_t</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">False</property>
+                <property name="use_underline">True</property>
+                <property name="active">True</property>
+                <property name="draw_indicator">True</property>
+                <property name="group">glulxe</property>
+                <signal name="toggled" handler="on_git_toggled"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkListStore" id="tests">
+    <columns>
+      <!-- column-name name -->
+      <column type="gchararray"/>
+      <!-- column-name glulxfile -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Glulxercise</col>
+        <col id="1">glulxercise.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">AccelFuncTest</col>
+        <col id="1">accelfunctest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ActionExtension</col>
+        <col id="1">actionextension.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ActionExtension (Z5)</col>
+        <col id="1">actionextension.z5</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ArrayLimitTest</col>
+        <col id="1">arraylimittest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ChineseDictTest</col>
+        <col id="1">chinesedicttest.ulx</col>
+      </row>
+	  <row>
+        <col id="0" translatable="yes">DateTimeTest</col>
+        <col id="1">datetimetest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">DictFlagTest</col>
+        <col id="1">dictflagtest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">DictFlagTest (Z5)</col>
+        <col id="1">dictflagtest.z5</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ExtBinaryFile</col>
+        <col id="1">extbinaryfile.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ExternalFile</col>
+        <col id="1">externalfile.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">FloatConstTest</col>
+        <col id="1">floatconsttest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">FloatParseTest</col>
+        <col id="1">floatparsetest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">InputEventText</col>
+        <col id="1">inputeventtext.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">InputFeatureTest</col>
+        <col id="1">inputfeaturetest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">MemCopyTest</col>
+        <col id="1">memcopytest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">MemHeapTest</col>
+        <col id="1">memheaptest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">MemStreamTest</col>
+        <col id="1">memstreamtest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ReadThreeArgTest (Z5)</col>
+        <col id="1">readthreeargtest.z5</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ResizeMemStreamTest</col>
+        <col id="1">resizememstreamtest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">ResStreamTest</col>
+        <col id="1">resstreamtest.gblorb</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">SelectVariantTest</col>
+        <col id="1">selectvarianttest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">UniCaseTest</col>
+        <col id="1">unicasetest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">UnicodeTest</col>
+        <col id="1">unicodetest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">UniDictTest</col>
+        <col id="1">unidicttest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">UniSourceTest</col>
+        <col id="1">unisourcetest.ulx</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">WindowTest</col>
+        <col id="1">windowtest.ulx</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkImage" id="image1">
+    <property name="visible">True</property>
+    <property name="stock">gtk-yes</property>
+  </object>
+</interface>

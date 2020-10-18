@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version SYSTEM "version.xml">
+]>
+<book id="index" xmlns:xi="http://www.w3.org/2003/XInclude">
+
+  <xi:include href="xml/annotation-glossary.xml"><xi:fallback /></xi:include>
+
+  <bookinfo>
+    <title>Chimara Reference Manual</title>
+    <releaseinfo>for Chimara &version;</releaseinfo>
+  </bookinfo>
+
+  <reference id="chimara-api-reference">
+    <title>Chimara API Reference</title>
+    <xi:include href="xml/chimara-glk.xml"/>
+    <xi:include href="xml/chimara-if.xml"/>
+  </reference>
+  
+  <reference id="chimara-glk-api-spec">
+    <title>Glk API Specification, version 0.7.4</title>
+    <xi:include href="glk-front-matter.sgml"/>
+    
+    <!-- Chapter 0. Introduction -->
+    <xi:include href="glk-introduction.sgml"/>
+    
+    <!-- Chapter 1. Overall Structure -->
+    <chapter id="chimara-glk-spec-overall-structure">
+      <title>Overall Structure</title>
+      <!-- For Gtk-Doc post-processed SGML files, look in the xml directory-->
+      <xi:include href="xml/glk-main-function.sgml"/>
+      <xi:include href="xml/glk-exiting.xml"/>
+      <xi:include href="xml/glk-interrupt.xml"/>
+      <xi:include href="xml/glk-tick.xml"/>
+      <xi:include href="xml/glk-types.xml"/>
+      <xi:include href="xml/glk-opaque-objects.xml"/>
+      <xi:include href="xml/glk-gestalt.xml"/>
+      <xi:include href="xml/glk-api-conventions.sgml"/>
+    </chapter>
+    
+    <!-- Chapter 2. Character Encoding -->
+    <chapter id="chimara-glk-spec-character-encoding">
+      <title>Character Encoding</title>
+      <xi:include href="glk-character-encoding.sgml"/>
+      <xi:include href="xml/glk-output.sgml"/>
+      <xi:include href="xml/glk-line-input.sgml"/>
+      <xi:include href="xml/glk-character-input.xml"/>
+      <xi:include href="xml/glk-case.xml"/>
+	  <xi:include href="xml/glk-normalize.xml"/>
+	  <xi:include href="xml/glk-normalization.sgml"/>
+    </chapter>
+    
+    <!-- Chapter 3. Windows -->
+    <chapter id="chimara-glk-spec-windows">
+      <title>Windows</title>
+      <xi:include href="glk-windows.sgml"/>
+      <xi:include href="xml/glk-window-arrangement.sgml"/>
+      <xi:include href="xml/glk-window-opening.xml"/>
+      <xi:include href="xml/glk-window-constraints.xml"/>
+      <xi:include href="xml/glk-display-style.sgml"/>
+      <xi:include href="xml/glk-window-types.xml"/>
+      <xi:include href="xml/glk-echo-streams.xml"/>
+      <xi:include href="xml/glk-window-other.xml"/>
+    </chapter>
+    
+    <!-- Chapter 4. Events -->
+    <chapter id="chimara-glk-spec-events">
+      <title>Events</title>
+      <xi:include href="xml/glk-events.xml"/>
+      <xi:include href="xml/glk-character-input-events.xml"/>
+      <xi:include href="xml/glk-line-input-events.xml"/>
+      <xi:include href="xml/glk-mouse-events.xml"/>
+      <xi:include href="xml/glk-timer-events.xml"/>
+      <xi:include href="xml/glk-other-events.sgml"/>
+	</chapter>
+	
+	<!-- Chapter 5. Streams -->
+	<chapter id="chimara-glk-spec-streams">
+	  <title>Streams</title>
+	  <xi:include href="xml/glk-streams.xml"/>
+	  <xi:include href="xml/glk-print.xml"/>
+	  <xi:include href="xml/glk-read.xml"/>
+	  <xi:include href="xml/glk-closing-streams.xml"/>
+	  <xi:include href="xml/glk-stream-positions.xml"/>
+	  <xi:include href="xml/glk-styles.xml"/>
+	  <xi:include href="xml/glk-stylehints.xml"/>
+	  <xi:include href="xml/glk-style-measure.xml"/>
+	  <xi:include href="xml/glk-stream-types.xml"/>
+	  <xi:include href="xml/glk-stream-other.xml"/>
+	</chapter>
+	
+	<!-- Chapter 6. File References -->
+	<chapter id="chimara-glk-spec-file-references">
+	  <title>File References</title>
+	  <xi:include href="xml/glk-fileref.xml"/>
+	  <xi:include href="xml/glk-fileref-types.xml"/>      
+      <xi:include href="xml/glk-fileref-other.xml"/>
+    </chapter>
+    
+    <!-- Chapter 7. Graphics -->
+    <chapter id="chimara-glk-spec-graphics">
+      <title>Graphics</title>
+      <xi:include href="xml/glk-image-resources.xml"/>
+      <xi:include href="xml/glk-graphics-windows.xml"/>
+      <xi:include href="xml/glk-graphics-text.xml"/>
+      <xi:include href="xml/glk-graphics-testing.xml"/>
+    </chapter>
+    
+    <!-- Chapter 8. Sound -->
+    <chapter id="chimara-glk-spec-sound">
+      <title>Sound</title>
+      <xi:include href="glk-sound-resources.sgml"/>
+      <xi:include href="xml/glk-sound-channels.xml"/>
+      <xi:include href="xml/glk-playing-sounds.xml"/>
+      <xi:include href="xml/glk-sound-other.xml"/>
+      <xi:include href="xml/glk-sound-testing.xml"/>
+    </chapter>
+    
+    <!-- Chapter 9. Hyperlinks -->
+    <chapter id="chimara-glk-spec-hyperlinks">
+      <title>Hyperlinks</title>
+      <xi:include href="xml/glk-creating-hyperlinks.xml"/>
+      <xi:include href="xml/glk-accepting-hyperlinks.xml"/>
+      <xi:include href="xml/glk-hyperlinks-testing.xml"/>
+    </chapter>
+
+	<!-- Chapter 10. The System Clock -->
+	<chapter id="chimara-glk-spec-the-system-clock">
+	  <title>The System Clock</title>
+	  <xi:include href="xml/glk-clock.xml"/>
+	  <xi:include href="xml/glk-clock-conversions.xml"/>
+	  <xi:include href="xml/glk-clock-testing.xml"/>
+	</chapter>
+    
+    <!-- Chapter 11. Porting, Adapting and Other Messy Bits -->
+    <xi:include href="glk-porting.sgml"/>
+   
+    <!-- Appendices -->
+    <appendix id="chimara-glk-spec-the-dispatch-layer">
+      <title>The Dispatch Layer</title>
+      <xi:include href="dispatch.sgml"/>
+      <xi:include href="xml/dispatch-interrogating.xml"/>
+      <xi:include href="xml/dispatch-dispatching.xml"/>
+      <xi:include href="xml/dispatch-prototypes.xml"/>
+      <xi:include href="xml/dispatch-library-functions.xml"/>
+      <xi:include href="dispatch-selectors.sgml"/>
+    </appendix>
+
+    <appendix id="chimara-glk-spec-the-blorb-layer">
+      <title>The Blorb Layer</title>
+      <xi:include href="blorb.sgml"/>
+      <xi:include href="xml/blorb-program.xml"/>
+      <xi:include href="blorb-library.sgml"/>
+      <xi:include href="xml/blorb-layer.xml"/>
+      <xi:include href="xml/blorb-errors.xml"/>
+    </appendix>
+    
+    <appendix id="chimara-glk-spec-glk-extensions">
+     <title>Glk Extensions</title>
+     <xi:include href="xml/glkext-startup.xml"/>
+     <xi:include href="xml/glkext-unix.xml"/>
+     <xi:include href="xml/glkext-garglk.xml"/>
+    </appendix>
+  </reference>
+  
+  <!-- Index -->
+  <index id="api-index">
+   <title>Index of symbols</title>
+   <xi:include href="xml/api-index-full.xml"><xi:fallback /></xi:include>
+  </index>
+
+  <index id="deprecated-index">
+    <title>Index of deprecated symbols</title>
+    <xi:include href="xml/api-index-deprecated.xml"><xi:fallback /></xi:include>
+  </index>
+</book>

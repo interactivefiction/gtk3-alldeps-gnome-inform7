@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <menu id="app-menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Preferences</attribute>
+        <attribute name="action">app.preferences</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_About</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Quit</attribute>
+        <attribute name="action">app.quit</attribute>
+      </item>
+    </section>
+  </menu>
+  <menu id="hamburger-menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Undo</attribute>
+        <attribute name="action">win.undo</attribute>
+        <attribute name="accel">&lt;primary&gt;z</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Save…</attribute>
+        <attribute name="action">win.save</attribute>
+        <attribute name="accel">&lt;primary&gt;s</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Restore…</attribute>
+        <attribute name="action">win.restore</attribute>
+        <attribute name="accel">&lt;primary&gt;r</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Res_tart</attribute>
+        <attribute name="action">win.restart</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Quit</attribute>
+        <attribute name="action">win.quit</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Abort Game</attribute>
+        <attribute name="action">win.stop</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

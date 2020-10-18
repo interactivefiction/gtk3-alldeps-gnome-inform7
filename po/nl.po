@@ -1,0 +1,2213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Philip Chimento
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Philip Chimento <philip.chimento@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnome Inform 7\n"
+"Report-Msgid-Bugs-To: http://inform7.com/mantis\n"
+"POT-Creation-Date: 2020-10-17 13:33-0400\n"
+"PO-Revision-Date: 2017-09-22 16:49+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/ptomato/gnome-inform7/"
+"language/nl/)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANSLATORS: File->Import Into Skein...
+#: src/actions.c:116
+msgid "Select the file to import into the skein"
+msgstr ""
+
+#: src/actions.c:118 src/actions.c:200 src/document.c:567 src/extension.c:254
+#: src/prefs.c:183 src/prefs.c:439 src/story.c:495 src/story.c:549
+#: src/story.c:1169 src/story-compile.c:776 src/story-compile.c:838
+msgid "_Cancel"
+msgstr ""
+
+#: src/actions.c:119 src/prefs.c:440 src/story.c:1170
+msgid "_Open"
+msgstr ""
+
+#: src/actions.c:124
+msgid "Interpreter recording files (*.rec)"
+msgstr ""
+
+#: src/actions.c:127 src/prefs.c:196 src/prefs.c:448
+msgid "All Files"
+msgstr "Alle bestanden"
+
+#: src/actions.c:196
+msgid "Are you sure you want to revert to the last saved version?"
+msgstr "Weet u zeker dat u naar de laatste opgeslagen versie wilt teruggaan?"
+
+#: src/actions.c:198
+msgid "All unsaved changes will be lost."
+msgstr "Alle nog niet opgeslagen wijzigingen zullen definitief verloren zijn."
+
+#: src/actions.c:201
+msgid "_Revert"
+msgstr ""
+
+#: src/actions.c:268
+msgid "Paginating..."
+msgstr "Pagineren..."
+
+#. TRANSLATORS: File->Print Preview...
+#. TRANSLATORS: File->Print...
+#: src/actions.c:299 src/actions.c:321
+msgid "There was an error printing: "
+msgstr "Er is een fout opgetreden bij het afdrukken:"
+
+#. TRANSLATORS: Release->Release...
+#: src/actions.c:945
+msgid "Save the game for release"
+msgstr "Spel opslaan voor publicatie"
+
+#. TRANSLATORS: Release->Release for Testing...
+#: src/actions.c:953
+msgid "Save debug build"
+msgstr ""
+
+#: src/actions.c:969
+msgid "Could not find Materials folder"
+msgstr "Mediamap niet gevonden"
+
+#: src/actions.c:971
+msgid ""
+"At the moment, this project has no Materials folder - a convenient place to "
+"put figures, sounds, manuals, hints or other matter to be packaged up with a "
+"release.\n"
+"\n"
+"Would you like to create one?"
+msgstr ""
+"Momenteel heeft dit project nog geen Mediamap - een handige map om "
+"illustraties, geluiden, handboeken, speltips enzovoort om bij de uitgave "
+"gebundeld te worden.\n"
+"\n"
+"Wilt u er een aanmaken?"
+
+#: src/actions.c:980
+msgid "creating Materials folder"
+msgstr "aanmaken van de Mediamap"
+
+#. TRANSLATORS: this string is used in error messages and should fit in the
+#. pattern "We couldn't open a program to show ___"
+#: src/actions.c:1000
+msgid "the Materials folder"
+msgstr "de Mediamap"
+
+#. TRANSLATORS: This string is used in error messages and should fit in the
+#. pattern "We couldn't show ___ in your browser"
+#: src/actions.c:1057
+msgid "the Inform website"
+msgstr "de website van Inform"
+
+#. TRANSLATORS: This string is used in error messages and should fit in
+#. the pattern "We couldn't show ___ in your browser"
+#: src/actions.c:1067
+msgid "the Inform feature suggestion page"
+msgstr ""
+
+#. TRANSLATORS: This string is used in error messages and should fit in
+#. the pattern "We couldn't show ___ in your browser"
+#: src/actions.c:1077
+msgid "the Inform bug reports page"
+msgstr ""
+
+#. TRANSLATORS: Help->About ; %s is the copyright year.
+#: src/actions.c:1085
+#, c-format
+msgid ""
+"Copyright 2006–%s Philip Chimento (front end),\n"
+"Graham Nelson et al. (compiler)."
+msgstr ""
+"Copyright 2006–%s Philip Chimento (applicatie),\n"
+"Graham Nelson e.a. (compiler)."
+
+#: src/actions.c:1090
+msgid "Inform written by:"
+msgstr "Inform geschreven door:"
+
+#: src/actions.c:1094
+msgid "Glulx compiler written by:"
+msgstr "Glulxcompiler geschreven door:"
+
+#: src/actions.c:1099
+msgid "Inform front-end written by:"
+msgstr "Informapplicatie geschreven door:"
+
+#: src/actions.c:1103
+msgid "Contributions by:"
+msgstr "Bijdragen ook van:"
+
+#: src/actions.c:1118
+msgid ""
+"In addition, Andrew Hunter's OS X version\n"
+"and David Kinder's Windows version\n"
+"proved invaluable."
+msgstr ""
+"Daarnaast bleken de OS X versie van Andrew\n"
+"Hunter en de Windowsversie van Davia\n"
+"Kinder van onschatbare waarde."
+
+#: src/actions.c:1122
+msgid "Interface designed by:"
+msgstr "Applicatie ontworpen door:"
+
+#: src/actions.c:1127
+msgid "Chimara written by:"
+msgstr "Chimara geschreven door:"
+
+#: src/actions.c:1132
+msgid "Elastic tabstops invented by:"
+msgstr ""
+
+#: src/actions.c:1136
+msgid "Contributions to the compiler:"
+msgstr "Bijdragen aan de compiler:"
+
+#: src/actions.c:1153 src/actions.c:1154 src/actions.c:1155
+msgid "Spanish"
+msgstr "Spaans"
+
+#: src/actions.c:1156
+msgid "French"
+msgstr "Frans"
+
+#. TRANSLATORS: Caution, UTF8 right arrow
+#: src/actions.c:1174
+msgid "See Help→License for licensing information."
+msgstr ""
+
+#: src/actions.c:1178
+msgid "About Inform"
+msgstr "Info over Inform"
+
+#: src/app.c:217
+msgid "creating the Inform directory"
+msgstr "aanmaken van de Informmap"
+
+#: src/app.c:240
+msgid "Could not compile regex"
+msgstr ""
+
+#: src/app.c:494
+#, c-format
+msgid ""
+"The file '%s' does not seem to be an extension. Extensions should be saved "
+"as UTF-8 text format files, and should start with a line of one of these "
+"forms:\n"
+"\n"
+"<Extension> by <Author> begins here.\n"
+"Version <Version> of <Extension> by <Author> begins here."
+msgstr ""
+"Het bestand '%s' lijkt niet op een uitbreiding. Uitbreidingsbestanden moeten "
+"opgeslagen worden als tekstbestanden in UTF-8 formaat, en de eerste regel "
+"moet een van de volgende twee vormen hebben:\n"
+"\n"
+"<Uitbreiding> by <Auteur> begins here.\n"
+"Version <Versie> of <Uitbreiding> by <Auteur> begins here."
+
+#: src/app.c:512
+msgid "creating a directory"
+msgstr "aanmaken van een map"
+
+#: src/app.c:530
+#, c-format
+msgid ""
+"A version of the extension %s by %s is already installed. Do you want to "
+"overwrite the installed extension with this new one?"
+msgstr ""
+"Er is al een versie geïnstalleerd van de uitbreiding %s door %s. Wilt u de "
+"geïnstalleerde versie overschrijven met deze nieuwe versie?"
+
+#: src/app.c:549
+msgid "copying a file"
+msgstr "kopiëren van een bestand"
+
+#: src/app.c:561
+msgid "removing an old extension file"
+msgstr "verwijderen van een oud uitbreidingsbestand"
+
+#: src/app.c:617
+msgid "deleting the file with or without extension"
+msgstr ""
+
+#: src/app.c:635 src/app.c:663
+msgid "deleting an old symlink"
+msgstr "verwijderen van een oude snelkoppeling"
+
+#: src/app.c:648
+msgid "deleting an empty directory"
+msgstr "verwijderen van een lege map"
+
+#: src/app.c:934 src/app.c:960
+msgid "opening extensions directory"
+msgstr "openen van de uitbreidingenmap"
+
+#: src/app.c:982 src/app.c:992
+msgid "reading extensions directory"
+msgstr "lezen van de uitbreidingenmap"
+
+#: src/app.c:1300 src/app.c:1341 src/app.c:1367
+#, c-format
+msgid "An application file, %s, was not found. Please reinstall Inform 7."
+msgstr ""
+"Het bestand %s ontbreekt, maar Inform 7 kan er niet zonder functioneren. "
+"Misschien helpt opnieuw installeren."
+
+#: src/app-colorscheme.c:147
+msgid "Cannot create user styles directory"
+msgstr ""
+
+#: src/app-colorscheme.c:160
+msgid "Cannot install style scheme"
+msgstr ""
+
+#: src/app-colorscheme.c:226
+msgid "Cannot uninstall style scheme"
+msgstr ""
+
+#: src/document.c:463
+msgid "Source code reloaded."
+msgstr "Broncode opnieuw ingelezen."
+
+#: src/document.c:504
+msgid "Could not start file monitor"
+msgstr ""
+
+#: src/document.c:554
+msgid "<b><big>Save changes to your story before closing?</big></b>"
+msgstr ""
+"<b><big>Wijzigingen in uw verhaal opslaan alvorens af te sluiten?</big></b>"
+
+#: src/document.c:558
+#, c-format
+msgid "<b><big>Save changes to '%s' before closing?</big></b>"
+msgstr "<b><big>Wijzigingen in '%s' opslaan alvorens af te sluiten?</big></b>"
+
+#: src/document.c:563
+msgid "If you don't save, your changes will be lost."
+msgstr "Als u niet opslaat, zullen uw wijzigingen verloren zijn."
+
+#: src/document.c:566 src/document.c:572
+msgid "Close _without saving"
+msgstr "Sluiten _zonder opslaan"
+
+#: src/document.c:568 src/document.c:573 src/extension.c:255 src/story.c:496
+#: src/story-compile.c:777 src/story-compile.c:839
+msgid "_Save"
+msgstr ""
+
+#: src/document.c:1279
+msgid "Installing extension"
+msgstr "Uitbreiding wordt geïnstalleerd"
+
+#: src/document.c:1282
+msgid "Downloading extension"
+msgstr "Uitbreiding wordt gedownload"
+
+#: src/document.c:1314
+#, c-format
+msgid "\"%s\" by %s could not be downloaded. The error was: %s"
+msgstr ""
+"\"%s\" door %s kon niet worden gedownload. Er is een fout opgetreden: %s"
+
+#: src/document.c:1321
+msgid "Installation complete"
+msgstr "Installeren voltooid"
+
+#: src/document.c:1323
+#, c-format
+msgid "\"%s\" by %s (Version %s) has been installed successfully."
+msgstr "\"%s\" door %s (Versie %s) is met succes geïnstalleerd."
+
+#: src/document.c:1336
+#, c-format
+msgid "Installed %d of %d (%d failed)"
+msgstr "%d van %d geinstalleerd (%d mislukt)"
+
+#: src/document.c:1337
+#, c-format
+msgid "Installed %d of %d"
+msgstr "%d van %d geinstalleerd"
+
+#: src/document.c:1420
+#, c-format
+msgid ""
+"The extension \"%s\" by %s (%s) could not be downloaded. The server "
+"reported: %s.\n"
+"\n"
+msgstr ""
+"De uitbreiding \"%s\" door %s (%s) kon niet worden gedownload. De server "
+"zei: %s.\n"
+"\n"
+
+#: src/document.c:1435
+#, c-format
+msgid "%u extension installed successfully, %u failed."
+msgid_plural "%u extensions installed successfully, %u failed."
+msgstr[0] "%u uitbreiding met succes geïnstalleerd, %u niet geïnstalleerd."
+msgstr[1] "%u uitbreidingen met succes geïnstalleerd, %u niet geïnstalleerd."
+
+#: src/document.c:1449
+#, c-format
+msgid "%u extension installed successfully."
+msgid_plural "%u extensions installed successfully."
+msgstr[0] "%u uitbreiding met succes geïnstalleerd."
+msgstr[1] "%u uitbreidingen met succes geïnstalleerd."
+
+#: src/document-search.c:187
+#, c-format
+msgid "%d occurrences replaced"
+msgstr "%d zoektermen vervangen"
+
+#: src/document-search.c:265 src/document-search.c:280
+msgid "Phrase not found"
+msgstr "Zoekterm niet gevonden"
+
+#: src/error.c:121
+msgid "_OK"
+msgstr ""
+
+#: src/error.c:159
+#, c-format
+msgid "Inform got an error while accessing \"%s\" from %s."
+msgstr "Inform kon geen toegang verkrijgen tot \"%s\" van %s."
+
+#: src/error.c:164
+#, c-format
+msgid "Inform cannot read \"%s\" from %s."
+msgstr "Inform kan \"%s\" niet inlezen van %s."
+
+#: src/error.c:166
+#, c-format
+msgid "Inform cannot save \"%s\" to %s."
+msgstr "Inform kan \"%s\" niet opslaan in %s."
+
+#: src/error.c:172
+#, c-format
+msgid "Inform could not read \"%s\" from %s."
+msgstr "Inform kon \"%s\" niet inlezen van %s."
+
+#: src/error.c:174
+#, c-format
+msgid "Inform could not save \"%s\" to %s."
+msgstr "Inform kon \"%s\" niet opslaan in %s."
+
+#: src/error.c:200
+msgid "byte"
+msgid_plural "bytes"
+msgstr[0] "byte"
+msgstr[1] "bytes"
+
+#: src/error.c:206
+#, c-format
+msgid "%.1f KB"
+msgstr "%.1f KB"
+
+#: src/error.c:209
+#, c-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: src/error.c:212
+#, c-format
+msgid "%.1f GB"
+msgstr "%.1f GB"
+
+#: src/error.c:250
+#, c-format
+msgid "The error <b>\"%s\"</b> occurred during the following operation: %s."
+msgstr "De fout <b>\"%s\"</b> is opgetreden tijdens de volgende actie: %s."
+
+#: src/error.c:253 src/error.c:453
+msgid "Try again. If it fails again, file a bug report on the Inform website."
+msgstr ""
+"Probeert u het eens opnieuw. Als het nogmaals mislukt, meld dan een bug op "
+"de website van Inform."
+
+#: src/error.c:272
+msgid "There is no file with that name at that location."
+msgstr "Er is geen bestand met die naam in die map."
+
+#: src/error.c:273
+msgid ""
+"Try checking that you spelled the file's name correctly. Remember that "
+"capitalization is significant (\"MyFile\" is not the same as \"MYFILE\" or "
+"\"myfile\")."
+msgstr ""
+"Controleer of u de bestandsnaam goed geschreven heeft. Houdt u daarbij "
+"rekening met hoofdletters (\"MijnBestand\" is niet hetzelfde als "
+"\"MIJNBESTAND\" of \"mijnbestand\")."
+
+#: src/error.c:279
+msgid "The location does not exist."
+msgstr "Die map bestaat niet."
+
+#: src/error.c:280
+msgid ""
+"Try checking that you spelled the location correctly. Remember that "
+"capitalization is significant (\"MyDirectory\" is not the same as "
+"\"mydirectory\" or \"MYDIRECTORY\")."
+msgstr ""
+"Controleer of u de naam van de map goed geschreven heeft. Houdt u daarbij "
+"rekening met hoofdletters (\"MijnMap\" is niet hetzelfde als \"mijnmap\" of "
+"\"MIJNMAP\")."
+
+#: src/error.c:291
+#, c-format
+msgid "The location \"%s\" does not support the reading of files."
+msgstr "De locatie \"%s\" ondersteunt het lezen van bestanden niet."
+
+#: src/error.c:294
+msgid ""
+"Try loading a file from a different location. If you think that you ought to "
+"be able to read this file, contact your system administrator."
+msgstr ""
+"Probeer een bestand van ergens anders te laden. Als u denkt dat dit bestand "
+"toch te lezen moet zijn, neemt u contact op met uw systeembeheerder."
+
+#: src/error.c:298 src/error.c:358
+#, c-format
+msgid "The location \"%s\" does not support the writing of files."
+msgstr "De locatie \"%s\" ondersteunt het opslaan van bestanden niet."
+
+#: src/error.c:301 src/error.c:362
+msgid "Try saving to a different location."
+msgstr "Probeer ergens anders op te slaan."
+
+#: src/error.c:326
+#, c-format
+msgid ""
+"The size of the file would be %s, but you only have %s free on that device."
+msgstr ""
+
+#: src/error.c:333
+#, c-format
+msgid ""
+"The file is too big to fit in the remaining space on the device (file size "
+"would be %s)."
+msgstr ""
+
+#: src/error.c:342
+msgid "The file is too big to fit in the remaining space on the device."
+msgstr ""
+
+#: src/error.c:349
+msgid ""
+"Try saving the file to a different location, or making more space by moving "
+"unwanted files from that device to the trash."
+msgstr ""
+
+#: src/error.c:369
+msgid "The system does not recognize that as a valid location."
+msgstr ""
+
+#: src/error.c:370
+msgid ""
+"Try checking that you spelled the location correctly. Remember that "
+"capitalization is significant (\"http\" is not the same as \"Http\" or \"HTTP"
+"\")."
+msgstr ""
+
+#: src/error.c:379
+msgid "You do not have permission to read that file."
+msgstr ""
+
+#: src/error.c:380
+msgid "Try asking your system administrator to give you permission."
+msgstr ""
+
+#: src/error.c:383
+msgid "You do not have permission to write to that location."
+msgstr ""
+
+#: src/error.c:384
+msgid ""
+"Try saving to a different location, or ask your system administrator to give "
+"you permission."
+msgstr ""
+
+#: src/error.c:392
+msgid "The system is trying to operate on too many files at once."
+msgstr ""
+
+#: src/error.c:393
+msgid ""
+"Try again. If it fails again, try closing unneeded applications, or contact "
+"your system administrator."
+msgstr ""
+
+#: src/error.c:400
+msgid "There were problems reading the contents of the file."
+msgstr ""
+
+#: src/error.c:401 src/error.c:425 src/error.c:432
+msgid "Try again. If it fails again, contact your system administrator."
+msgstr ""
+
+#: src/error.c:407
+msgid "It is a directory, rather than a file."
+msgstr ""
+
+#: src/error.c:409
+msgid "Try using the Desktop Search to find your file."
+msgstr ""
+
+#: src/error.c:410
+msgid ""
+"You must save to a file within a directory, rather than to the directory "
+"itself."
+msgstr ""
+
+#: src/error.c:417
+msgid "The server could not be contacted."
+msgstr ""
+
+#: src/error.c:418
+msgid "Try again. If it fails again, the server may be down."
+msgstr ""
+
+#: src/error.c:424
+msgid "The system could not login to the location."
+msgstr ""
+
+#: src/error.c:431
+msgid "The location was too busy."
+msgstr ""
+
+#: src/error.c:438
+msgid "The name is too long for the location to manage."
+msgstr ""
+
+#: src/error.c:439
+msgid "Try again with a shorter file name."
+msgstr ""
+
+#: src/error.c:452
+msgid "An unexpected internal error occurred."
+msgstr ""
+
+#: src/extension.c:118 src/extension.c:124 src/story.c:313
+msgid "Untitled"
+msgstr "Zonder titel"
+
+#: src/extension.c:143
+msgid "<big><b>You are editing a built-in Inform extension.</b></big>"
+msgstr ""
+
+#: src/extension.c:145
+msgid ""
+"You are not allowed to overwrite the extensions built into Inform. Instead, "
+"select <i>Save As...</i> or <i>Save a Copy...</i> from the <i>File</i> menu "
+"to save a copy of the extension to a different file. You can then install "
+"the extension to the local extensions directory by selecting <i>Install "
+"Extension</i> from the <i>File</i> menu, and the compiler will use that "
+"extension instead of the built-in one."
+msgstr ""
+
+#: src/extension.c:225 src/story.c:405
+msgid "Saving project..."
+msgstr ""
+
+#: src/extension.c:253 src/story.c:493
+msgid "Save File"
+msgstr "Bestand Opslaan"
+
+#: src/file.c:52
+#, c-format
+msgid ""
+"The file '%s' could not be read because it contained invalid UTF-8 text."
+msgstr ""
+
+#: src/file.c:103
+msgid "Cleaning out build files..."
+msgstr ""
+
+#. TRANSLATORS: %s can be a URL, a filename, or a noun like "the
+#. Inform website"
+#: src/file.c:403 src/file.c:461
+#, c-format
+msgid "We couldn't show %s in your browser. The error was: "
+msgstr ""
+
+#. TRANSLATORS: %s can be a URL, a filename, or a noun like "the
+#. Materials folder"
+#: src/file.c:437
+#, c-format
+msgid "We couldn't open a program to show %s. The error was: "
+msgstr ""
+
+#: src/lang.c:68
+#, c-format
+msgid "Cannot load %s source-language highlighting definition"
+msgstr ""
+
+#: src/main.c:64
+msgid "Print version information"
+msgstr "Versie weergeven"
+
+#. TRANSLATORS: This string occurs in the --help message's usage
+#. string, to indicate that the user can specify project files on the
+#. command line in order to have them opened at startup
+#: src/main.c:74
+msgid "[FILE1 FILE2 ...]"
+msgstr "[BESTAND1 BESTAND2 ...]"
+
+#. TRANSLATORS: This is the usage string for the --help message
+#: src/main.c:80
+msgid "- Interactive fiction IDE"
+msgstr "- Ontwikkelomgeving voor interactieve fictie"
+
+#: src/main.c:84
+msgid "Failed to parse commandline options"
+msgstr ""
+
+#. TRANSLATORS: this is the human-readable application name
+#: src/main.c:101 com.inform7.IDE.desktop.in:5
+msgid "Inform 7"
+msgstr "Inform 7"
+
+#: src/newdialog.c:138
+#, c-format
+msgid ""
+"The story \"%s\" already exists in the directory %s. Please choose another "
+"title or directory."
+msgstr ""
+
+#: src/newdialog.c:166
+#, c-format
+msgid "The project name cannot contain any of the following: %s"
+msgstr ""
+
+#: src/newdialog.c:203
+#, c-format
+msgid ""
+"<big><b>%s</b>\n"
+"by %s</big>\n"
+"\n"
+"Project Type: %s\n"
+"Directory to create project in: %s\n"
+msgstr ""
+
+#: src/newdialog.c:207
+msgid "Inform 7 Extension"
+msgstr "Inform 7 Uitbreiding"
+
+#: src/newdialog.c:207
+msgid "Inform 7 Story"
+msgstr "Inform 7 Verhaal"
+
+#: src/newdialog.c:288
+msgid "<b>Inform 7</b>"
+msgstr "<b>Inform 7</b>"
+
+#: src/newdialog.c:289
+msgid ""
+"The Inform 7 application is a natural-language based system for creating and "
+"editing works of interactive fiction. Choose one of the options below to get "
+"started."
+msgstr ""
+
+#: src/newdialog.c:296
+msgid "New story"
+msgstr "Nieuw verhaal"
+
+#: src/newdialog.c:297
+msgid ""
+"Creates a blank Inform 7 project, in which you can write a work of "
+"interactive fiction."
+msgstr ""
+
+#: src/newdialog.c:303
+msgid "New set of extension rules"
+msgstr ""
+
+#: src/newdialog.c:304
+msgid ""
+"For experienced users of Inform 7. An extension is a set of rules which can "
+"be used in more than one work of interactive fiction, either for your own "
+"use or to be contributed to the community."
+msgstr ""
+
+#: src/panel.c:239
+msgid "JavaScript error: Unknown argument to selectView()"
+msgstr ""
+
+#: src/panel.c:301
+msgid "Cannot unescape unicode characters"
+msgstr ""
+
+#: src/panel.c:676
+msgid "Are you sure you want to bless all the items in the transcript?"
+msgstr ""
+
+#: src/panel.c:678
+msgid ""
+"This will 'Bless' all the items currently in the transcript so that they "
+"appear as the 'expected' text in the right-hand column. This operation "
+"cannot be undone."
+msgstr ""
+
+#: src/prefs.c:181
+msgid "Add Color Scheme"
+msgstr ""
+
+#: src/prefs.c:184
+msgid "_Add"
+msgstr ""
+
+#: src/prefs.c:190
+msgid "Color Scheme Files"
+msgstr ""
+
+#: src/prefs.c:217
+msgid "The selected color scheme cannot be installed."
+msgstr ""
+
+#: src/prefs.c:242
+#, c-format
+msgid "Could not remove color scheme \"%s\"."
+msgstr ""
+
+#: src/prefs.c:344
+msgid "accessing a URI"
+msgstr ""
+
+#: src/prefs.c:354
+msgid "opening a directory"
+msgstr ""
+
+#: src/prefs.c:371
+msgid "reading a directory"
+msgstr ""
+
+#: src/prefs.c:403
+#, c-format
+msgid "1 space"
+msgid_plural "%.*f spaces"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/prefs.c:437
+msgid "Select the extensions to install"
+msgstr "Selecteer de uitbreidingen die u wilt installeren"
+
+#: src/prefs.c:445
+msgid "Inform 7 Extensions (*.i7x)"
+msgstr ""
+
+#. TRANSLATORS: Are you sure you want to remove EXTENSION_NAME by AUTHOR_NAME?
+#: src/prefs.c:496
+#, c-format
+msgid "Are you sure you want to remove %s by %s?"
+msgstr ""
+
+#. TRANSLATORS: This string is from the search results window;
+#. it looks like "(Example 347: The Eye of the Idol) The Hexagonal
+#. Temple..." where the first string is the number and title of the
+#. example, and the second is the context containing the string the
+#. user searched for.
+#: src/searchwindow.c:195
+#, c-format
+msgid "<small><i>(Example %s)</i></small> %s"
+msgstr ""
+
+#: src/searchwindow.c:229
+#, c-format
+msgid "Story, line %d"
+msgstr ""
+
+#: src/searchwindow.c:233
+#, c-format
+msgid "Untitled story, line %d"
+msgstr ""
+
+#. TRANSLATORS: EXTENSION_NAME, line NUMBER
+#: src/searchwindow.c:235 src/searchwindow.c:247
+#, c-format
+msgid "%s, line %d"
+msgstr ""
+
+#: src/searchwindow.c:270
+msgid "Writing with Inform"
+msgstr ""
+
+#: src/searchwindow.c:273
+msgid "Extension"
+msgstr ""
+
+#. Source panel
+#. Left headings panel
+#: src/searchwindow.c:276 src/ui/panel.ui:55 src/ui/source.ui:223
+msgid "Source"
+msgstr ""
+
+#: src/searchwindow.c:279
+msgid "The Inform Recipe Book"
+msgstr ""
+
+#: src/searchwindow.c:282
+msgid "unknown"
+msgstr ""
+
+#: src/searchwindow.c:301
+msgid "Search Results"
+msgstr ""
+
+#: src/searchwindow.c:352
+#, c-format
+msgid "Search results for: \"%s\""
+msgstr ""
+
+#: src/searchwindow.c:607
+msgid "opening documentation directory"
+msgstr ""
+
+#: src/searchwindow.c:623
+#, c-format
+msgid "Please be patient, indexing %s..."
+msgstr ""
+
+#. TRANSLATORS: Error opening EXTENSION_NAME by AUTHOR_NAME
+#: src/searchwindow.c:720
+#, c-format
+msgid "Error opening extension '%s' by '%s':"
+msgstr ""
+
+#: src/skein.c:140
+msgid "- start -"
+msgstr "- begin -"
+
+#: src/source-view.c:99
+msgid "Volumes only"
+msgstr ""
+
+#: src/source-view.c:101
+msgid "Volumes and Books"
+msgstr ""
+
+#: src/source-view.c:103
+msgid "Parts and higher"
+msgstr ""
+
+#: src/source-view.c:105
+msgid "Chapters and higher"
+msgstr ""
+
+#: src/source-view.c:106
+msgid "All headings"
+msgstr ""
+
+#: src/source-view.c:129
+msgid ""
+"No headings are visible at this level. Drag the slider below to the right to "
+"make the headings in the source text visible."
+msgstr ""
+
+#: src/source-view.c:136
+msgid ""
+"Larger Inform projects are usually divided up with headings like 'Chapter 2 "
+"- Into the Forest'. This page automatically displays those headings as a "
+"Table of Contents, but since there are no headings in this project yet, "
+"there is nothing to see."
+msgstr ""
+
+#: src/spawn.c:166 src/spawn.c:244
+msgid "Could not spawn process: "
+msgstr ""
+
+#: src/story.c:452
+msgid ""
+"There was an error saving the Skein. Your story will still be saved. "
+"Problem: "
+msgstr ""
+
+#: src/story.c:460
+msgid ""
+"There was an error saving the Notepad. Your story will still be saved. "
+"Problem: "
+msgstr ""
+
+#: src/story.c:469
+msgid ""
+"There was an error saving the project settings. Your story will still be "
+"saved. Problem: "
+msgstr ""
+
+#: src/story.c:546
+#, c-format
+msgid "A project named \"%s\" already exists. Do you want to replace it?"
+msgstr ""
+
+#: src/story.c:548
+msgid "Replacing it will overwrite its contents."
+msgstr ""
+
+#. Find and Replace dialog
+#: src/story.c:550 src/ui/document.ui:337
+msgid "_Replace"
+msgstr ""
+
+#: src/story.c:1168
+msgid "Open Project"
+msgstr ""
+
+#: src/story.c:1212
+msgid "This project doesn't have a .inform extension."
+msgstr ""
+
+#: src/story.c:1214
+msgid ""
+"This extension is required for Inform story files to work on all platforms. "
+"The project will be renamed."
+msgstr ""
+
+#: src/story.c:1224
+msgid "renaming the project file to a .inform extension"
+msgstr ""
+
+#: src/story.c:1241
+#, c-format
+msgid "The file \"%s\" doesn't seem to be an Inform story file."
+msgstr ""
+
+#: src/story.c:1243
+#, c-format
+msgid ""
+"Make sure you are opening the correct file. This file was located at: %s"
+msgstr ""
+
+#: src/story.c:1273
+msgid "This project's Skein was not found, or it was unreadable."
+msgstr ""
+
+#: src/story.c:1298
+msgid "Could not open the project's settings file. Using default settings."
+msgstr ""
+
+#: src/story-compile.c:161
+msgid "Error creating UUID."
+msgstr ""
+
+#: src/story-compile.c:167
+msgid "creating UUID file"
+msgstr ""
+
+#: src/story-compile.c:178
+msgid "Compiling Inform 7 to Inform 6"
+msgstr ""
+
+#: src/story-compile.c:388
+msgid "Running Inform 6..."
+msgstr ""
+
+#: src/story-compile.c:550
+#, c-format
+msgid ""
+"\n"
+"Compiler finished with code %d\n"
+msgstr ""
+
+#: src/story-compile.c:599
+msgid "Running cBlorb..."
+msgstr ""
+
+#: src/story-compile.c:700
+msgid "Compiling succeeded."
+msgstr ""
+
+#: src/story-compile.c:700
+msgid "Compiling failed."
+msgstr ""
+
+#: src/story-compile.c:763
+msgid "iFiction records (.iFiction)"
+msgstr ""
+
+#: src/story-compile.c:774
+msgid "Save iFiction record"
+msgstr ""
+
+#: src/story-compile.c:796
+msgid "copying iFiction record"
+msgstr ""
+
+#: src/story-compile.c:805
+msgid ""
+"The compiler failed to create an iFiction record; check the results page to "
+"see why."
+msgstr ""
+
+#: src/story-compile.c:828
+msgid "Glulx games (.ulx,.gblorb)"
+msgstr ""
+
+#: src/story-compile.c:832
+msgid "Z-code games (.z?,.zblorb)"
+msgstr ""
+
+#: src/story-compile.c:870
+msgid "copying compiler output"
+msgstr ""
+
+#: src/story-game.c:51 src/story-game.c:71 src/story-game.c:123
+#: src/story-game.c:253
+msgid "Could not load interpreter: "
+msgstr ""
+
+#: src/story-index.c:66
+msgid "Reloading index..."
+msgstr ""
+
+#: src/story-skein.c:145
+msgid "<b>Unable to delete the active branch in the skein</b>"
+msgstr ""
+
+#: src/story-skein.c:147
+msgid ""
+"It is not possible to delete the branch of the skein that leads to the "
+"current position in the game. To delete this branch, either stop or restart "
+"the game."
+msgstr ""
+
+#: src/story-skein.c:162
+msgid ""
+"This knot has been locked to preserve it. Do you really want to delete it? "
+"(This cannot be undone.)"
+msgstr ""
+
+#. Transcript panel
+#: src/story-skein.c:225 src/ui/panel.ui:37
+msgid "_Play to Here"
+msgstr ""
+
+#: src/story-skein.c:228
+msgid "_Edit"
+msgstr ""
+
+#: src/story-skein.c:229
+msgid "Edit _Label"
+msgstr ""
+
+#: src/story-skein.c:229
+msgid "Add _Label"
+msgstr ""
+
+#: src/story-skein.c:231
+msgid "Show in _Transcript"
+msgstr ""
+
+#: src/story-skein.c:233
+msgid "Un_lock"
+msgstr ""
+
+#: src/story-skein.c:233
+msgid "_Lock"
+msgstr ""
+
+#: src/story-skein.c:234
+msgid "Unloc_k This Thread"
+msgstr ""
+
+#: src/story-skein.c:234
+msgid "Loc_k This Thread"
+msgstr ""
+
+#: src/story-skein.c:237
+msgid "_New Thread"
+msgstr ""
+
+#: src/story-skein.c:239
+msgid "_Insert Knot"
+msgstr ""
+
+#: src/story-skein.c:240
+msgid "_Delete"
+msgstr ""
+
+#: src/story-skein.c:241
+msgid "Delete all _Below"
+msgstr ""
+
+#: src/story-skein.c:242
+msgid "Delete _all in Thread"
+msgstr ""
+
+#: src/story-skein.c:245
+msgid "_Save Transcript to here..."
+msgstr ""
+
+#. Edit Menu
+#: src/ui/document.ui:55
+msgid "Search backwards for the find text"
+msgstr ""
+
+#. Edit Menu
+#: src/ui/document.ui:57
+msgid "Find Pre_vious"
+msgstr ""
+
+#. Edit Menu
+#: src/ui/document.ui:70
+msgid "Search forwards for the find text"
+msgstr ""
+
+#. Edit Menu
+#: src/ui/document.ui:72
+msgid "Find Ne_xt"
+msgstr ""
+
+#: src/ui/document.ui:174
+msgid "Downloading Extensions"
+msgstr ""
+
+#: src/ui/document.ui:227
+msgid "label"
+msgstr ""
+
+#. Find and Replace dialog
+#: src/ui/document.ui:271
+msgid "Words containing"
+msgstr ""
+
+#. Find and Replace dialog
+#: src/ui/document.ui:274
+msgid "Words starting with"
+msgstr ""
+
+#. Find and Replace dialog
+#: src/ui/document.ui:277
+msgid "The whole word(s)"
+msgstr ""
+
+#. Edit Menu
+#. Search Files dialog
+#: src/ui/document.ui:284 src/ui/document.ui:526
+msgid "Find and Replace"
+msgstr ""
+
+#. Find and Replace dialog
+#: src/ui/document.ui:321
+msgid "Replace _all"
+msgstr ""
+
+#. Find and Replace dialog
+#: src/ui/document.ui:390
+msgid "R_eplace with:"
+msgstr ""
+
+#. Find and Replace dialog
+#. Search Files dialog
+#: src/ui/document.ui:404 src/ui/document.ui:600
+msgid "_Search for:"
+msgstr ""
+
+#. Find and Replace dialog
+#. Search Files dialog
+#: src/ui/document.ui:470 src/ui/document.ui:718
+msgid "_Ignore case"
+msgstr ""
+
+#. Find and Replace dialog
+#: src/ui/document.ui:486
+msgid "Search _backwards"
+msgstr ""
+
+#. Find and Replace dialog
+#: src/ui/document.ui:501
+msgid "Restric_t search to currently shown section"
+msgstr ""
+
+#. Search Files dialog
+#: src/ui/document.ui:647
+msgid "In:"
+msgstr ""
+
+#. Search Files dialog
+#: src/ui/document.ui:658
+msgid "_Project files"
+msgstr ""
+
+#. Search Files dialog
+#: src/ui/document.ui:677
+msgid "_Extensions"
+msgstr ""
+
+#. Search Files dialog
+#: src/ui/document.ui:694
+msgid "_Documentation"
+msgstr ""
+
+#. Font settings panel
+#: src/ui/gnome-inform7.ui:13
+msgid "Use font from theme"
+msgstr ""
+
+#. Font settings panel
+#: src/ui/gnome-inform7.ui:16
+msgid "Use monospace font from theme"
+msgstr ""
+
+#. Font settings panel
+#: src/ui/gnome-inform7.ui:19
+msgid "Use custom font"
+msgstr ""
+
+#. Font settings panel
+#: src/ui/gnome-inform7.ui:30
+msgid "Standard"
+msgstr ""
+
+#. Font settings panel
+#: src/ui/gnome-inform7.ui:33
+msgid "Medium"
+msgstr ""
+
+#. Font settings panel
+#: src/ui/gnome-inform7.ui:36
+msgid "Large"
+msgstr ""
+
+#. Font settings panel
+#: src/ui/gnome-inform7.ui:39
+msgid "Huge"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:50
+msgid "Glulxe (default)"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:53
+msgid "git"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:72
+msgid ""
+"Part One - the Wharf\n"
+"\n"
+"The Customs Wharf is a room. [change the description if the cask is open] "
+"\"Amid the bustle of the quayside, [if the case is open]many eyes stray to "
+"your broached cask. [otherwise]nobody takes much notice of a man heaving a "
+"cask about.[end if]Sleek gondolas jostle at the plank pier.\""
+msgstr ""
+
+#. Editing settings panel - Make sure to keep TAB characters ('\t') between the words
+#: src/ui/gnome-inform7.ui:88
+msgid "\tTab\tTab\tTab\tTab\tTab\tTab\tTab\tTab\tTab\tTab\tTab"
+msgstr "\tTab\tTab\tTab\tTab\tTab\tTab\tTab\tTab\tTab\tTab\tTab"
+
+#. Settings panel
+#: src/ui/gnome-inform7.ui:99
+msgid "Inform Preferences"
+msgstr ""
+
+#. Author settings panel
+#: src/ui/gnome-inform7.ui:162
+msgid "_Author name"
+msgstr ""
+
+#. Author settings panel
+#: src/ui/gnome-inform7.ui:198
+msgid ""
+"The author name is automatically filled in when creating new stories and "
+"extensions."
+msgstr ""
+
+#. Author settings panel
+#: src/ui/gnome-inform7.ui:232
+msgid "Author"
+msgstr ""
+
+#. Author settings panel
+#: src/ui/gnome-inform7.ui:249
+msgid "Preferred author's name for new Inform 7 projects"
+msgstr ""
+
+#. Change settings panel
+#: src/ui/gnome-inform7.ui:254
+msgid "_Indent wrapped lines"
+msgstr ""
+
+#. Change settings panel
+#: src/ui/gnome-inform7.ui:258
+msgid ""
+"If this option is checked, Inform will indent wrapped lines by half a tab-"
+"stop. This makes it easier to see where a line-break happened because of a "
+"long line."
+msgstr ""
+
+#. Change settings panel
+#: src/ui/gnome-inform7.ui:270
+msgid "_Auto-indent after newline"
+msgstr ""
+
+#. Change settings panel
+#: src/ui/gnome-inform7.ui:274
+msgid ""
+"If this option is selected, Inform will track the number of tabs at the "
+"beginning of the last line and automatically indent the next line "
+"accordingly when you insert a new line by pressing return."
+msgstr ""
+
+#. Change settings panel
+#: src/ui/gnome-inform7.ui:286
+msgid "'Intelligently' _follow symbols in source file"
+msgstr ""
+
+#. Change settings panel
+#: src/ui/gnome-inform7.ui:290
+msgid ""
+"Inform can keep track of important items in your source files as you type. "
+"Enabling this option will allow it to automatically track sections in "
+"Natural Inform files."
+msgstr ""
+
+#: src/ui/gnome-inform7.ui:302
+msgid "Auto-_number sections"
+msgstr ""
+
+#: src/ui/gnome-inform7.ui:306
+msgid ""
+"If you check this option, Inform will automatically renumber sections when "
+"you insert a new one. It will also automatically insert a section number as "
+"you type: if you type \"Part \", Inform will insert \"2 - \" and renumber "
+"the previous Part 2 to Part 3 and so on."
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:341
+msgid "Editing"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:379
+msgid "_Enable syntax highlighting"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:406
+msgid "Choose Custom Font"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:424
+msgid "_Custom font:"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:439
+msgid "Font si_ze:"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:454
+msgid "Font _set:"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:516
+msgid "<b>Fonts</b>"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:552
+msgid ""
+"This selects a style for the color scheme and font effects used to display "
+"Inform source code."
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:594
+msgid "Add a style scheme to the list"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:611
+msgid "Remove the selected style scheme from the list"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:636
+msgid "<b>Sty_les</b>"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:668
+msgid ""
+"Drag this slider to set the size of a tab stop in the Inform 7 source pane. "
+"This will also adjust the size of the 'half stop' used to indent wrapped "
+"lines."
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:685
+msgid "This shows a preview of the tab width setting you have chosen above."
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:711
+msgid "<b>Tab _Width</b>"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:744
+msgid "This displays a sample of source code in your selected styles."
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:765
+msgid "<b>Sample Text</b>"
+msgstr ""
+
+#. Editing settings panel
+#: src/ui/gnome-inform7.ui:801
+msgid "Formatting"
+msgstr ""
+
+#. Extension settings panel
+#: src/ui/gnome-inform7.ui:840
+msgid ""
+"This shows the list of installed Natural Inform extensions. You can drag "
+"individual extension files here to add them to their author's directory "
+"automatically."
+msgstr ""
+
+#. Extension settings panel
+#: src/ui/gnome-inform7.ui:895
+msgid "indicates an extension built into Inform."
+msgstr ""
+
+#. Extension settings panel
+#: src/ui/gnome-inform7.ui:924
+msgid "Adds a new Natural Inform extension using a file chooser."
+msgstr ""
+
+#. Extension settings panel
+#: src/ui/gnome-inform7.ui:940
+msgid "Deletes the currently selected Natural Inform extension."
+msgstr ""
+
+#. Extension settings panel
+#: src/ui/gnome-inform7.ui:965
+msgid "<b>Natural Inform E_xtensions</b>"
+msgstr ""
+
+#. Extension settings panel
+#. Extensions panel
+#: src/ui/gnome-inform7.ui:996 src/ui/panel.ui:290 src/ui/panel.ui:858
+msgid "Extensions"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1034
+msgid "_Clean build files from projects before closing"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1038
+msgid ""
+"Build files are files that are generated while turning your story into a "
+"game file. Selecting this option will ensure that they are deleted when you "
+"close or save a project. These files can grow quite large (many times the "
+"size of your source code), so deleting them is a good idea if you are "
+"planning to send a project to someone else."
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1050
+msgid "_Also clean out index files"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1054
+msgid ""
+"Selecting this option will cause Inform to additionally clean out the "
+"project's various index files. These are generated by the Inform 7 compiler "
+"and can be safely deleted, though they may be useful the next time you open "
+"the project."
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1072
+msgid "<b>Cleaning</b>"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1103
+msgid "Glulx interpreter:"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1137
+msgid "<b>Interpreters</b>"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1166
+msgid "_Show debugging log and Inform 6 intermediate code"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1170
+msgid ""
+"Selecting this option will display two extra tabs in the Errors pane when "
+"the story is compiled. One of these shows the debugging log from the "
+"compiler, and the other shows the Inform 6 code that the compiler has "
+"generated from the story."
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1184
+msgid ""
+"This option is intended only for advanced users of Inform 7. It is most "
+"useful to people involved with maintaining the compiler, although the Inform "
+"6 intermediate code may be of interest to especially advanced extension "
+"authors."
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1203
+msgid "<b>Compiler Debugging</b>"
+msgstr ""
+
+#. Advanced settings panel
+#: src/ui/gnome-inform7.ui:1240
+msgid "Advanced"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:18
+msgid "Create New Project"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:82
+msgid "Please choose a project type."
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:94
+msgid "New Project Type"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:108
+msgid "The _directory in which the project will be created"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:126
+msgid "Choose the directory to create the new project in"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:139
+msgid "The _name of the new project"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:172
+msgid "The a_uthor's name"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:202
+msgid "Inform 7 Project"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:212
+msgid "(placeholder)"
+msgstr ""
+
+#. New Project window
+#: src/ui/newdialog.ui:219
+msgid "Create a New Project"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:18
+msgid "_Bless"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:46
+msgid "_Show Knot"
+msgstr ""
+
+#. Story panel
+#: src/ui/panel.ui:61
+msgid "Story"
+msgstr ""
+
+#. Panel
+#: src/ui/panel.ui:73
+msgid "Go back"
+msgstr ""
+
+#. Panel
+#: src/ui/panel.ui:75
+msgid "_Back"
+msgstr ""
+
+#. Panel
+#: src/ui/panel.ui:88
+msgid "Go forward"
+msgstr ""
+
+#. Panel
+#: src/ui/panel.ui:90
+msgid "_Forward"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:114
+msgid "Jump to a labeled node in the Skein"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:117
+msgid "_Labels"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:130
+msgid "Edit the spacing for items in the skein"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:133
+msgid "La_yout"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:146
+msgid "Trim unused nodes from the skein"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:149
+msgid "_Trim"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:162
+msgid "Play through all the blessed nodes in the entire skein"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:165
+msgid "Play _All"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:178
+msgid "Go to the next difference in the Skein"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:181
+msgid "Next in _Skein"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:194
+msgid "Go to the next difference"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:197
+msgid "_Next Diff"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:210
+msgid "Go to the previous difference"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:213
+msgid "_Prev Diff"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:226
+msgid "Bless the entire transcript"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:229
+msgid "B_less All"
+msgstr ""
+
+#. Documentation Panel
+#: src/ui/panel.ui:242
+msgid "Display the Inform 7 documentation"
+msgstr ""
+
+#. Documentation Panel
+#: src/ui/panel.ui:244
+msgid "_Home"
+msgstr ""
+
+#. Documentation panel
+#: src/ui/panel.ui:257
+msgid "Display the alphabetical list of examples"
+msgstr ""
+
+#. Documentation panel
+#: src/ui/panel.ui:260
+msgid "_Examples"
+msgstr ""
+
+#. Documentation panel
+#: src/ui/panel.ui:272
+msgid "Display an index of the Inform documentation"
+msgstr ""
+
+#. Documentation panel
+#: src/ui/panel.ui:275
+msgid "General _Index"
+msgstr ""
+
+#. Extensions panel
+#: src/ui/panel.ui:288
+msgid "Display the installed extensions"
+msgstr ""
+
+#. Extensions panel
+#: src/ui/panel.ui:303
+msgid "Display an index of definitions from installed extensions"
+msgstr ""
+
+#. Extensions panel
+#: src/ui/panel.ui:306
+msgid "_Definitions"
+msgstr ""
+
+#. Extensions panel
+#: src/ui/panel.ui:319
+msgid "Display the public library of extensions on the Inform website"
+msgstr ""
+
+#. Extensions panel
+#: src/ui/panel.ui:322
+msgid "Public _Library"
+msgstr ""
+
+#. Debugging panel
+#: src/ui/panel.ui:379
+msgid "Progress"
+msgstr ""
+
+#. Debugging panel
+#: src/ui/panel.ui:406
+msgid "Debugging"
+msgstr ""
+
+#. Debugging panel
+#: src/ui/panel.ui:433
+msgid "Report"
+msgstr ""
+
+#. Debugging panel
+#: src/ui/panel.ui:484
+msgid "Results"
+msgstr ""
+
+#. Index panel
+#. Left headings panel
+#: src/ui/panel.ui:543 src/ui/source.ui:140
+msgid "Contents"
+msgstr ""
+
+#. Index panel
+#: src/ui/panel.ui:570
+msgid "Actions"
+msgstr ""
+
+#. Index panel
+#: src/ui/panel.ui:597
+msgid "Kinds"
+msgstr ""
+
+#. Index panel
+#: src/ui/panel.ui:624
+msgid "Phrases"
+msgstr ""
+
+#. Index panel
+#: src/ui/panel.ui:651
+msgid "Rules"
+msgstr ""
+
+#. Index panel
+#: src/ui/panel.ui:678
+msgid "Scenes"
+msgstr ""
+
+#. Index panel
+#: src/ui/panel.ui:705
+msgid "World"
+msgstr ""
+
+#. Index panel
+#: src/ui/panel.ui:722
+msgid "Index"
+msgstr ""
+
+#. Skein panel
+#: src/ui/panel.ui:746
+msgid "Skein"
+msgstr ""
+
+#. Transcript panel
+#: src/ui/panel.ui:792
+msgid "Transcript"
+msgstr ""
+
+#. Documentation panel
+#. Placeholder text for toolbar entry
+#: src/ui/panel.ui:828 src/ui/story.ui:122
+msgid "Documentation"
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:892
+msgid ""
+"Inform translates the source text into a story file which can have either of "
+"two standard formats. You can change your mind about the format at any time, "
+"but some language features require Glulx to be used."
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:907
+msgid "Z-Code Version _8 (medium-sized textual projects: most portable)"
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:922
+msgid "_Glulx (large and multimedia projects: most capable)"
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:940
+msgid ""
+"When released, the story file is normally bound up into a Blorb file along "
+"with bibliographic data, cover art and any other resources it needs. If you "
+"need the raw story file, uncheck this option."
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:955
+msgid "Bind up into a _Blorb file on release"
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:977
+msgid "<b>Story File Format</b>"
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:1008
+msgid ""
+"If the story involves randomised outcomes or events, it may be harder to "
+"check with the Replay options or with TEST commands, because the same input "
+"may produce different results every time. This option makes testing more "
+"predictable. (It has no effect on the final Release version, which will "
+"still be randomised.)"
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:1023
+msgid "Make _random outcomes more predictable when testing"
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:1044
+msgid "<b>Randomness</b>"
+msgstr ""
+
+#. Settings panel
+#: src/ui/panel.ui:1065
+msgid "Settings"
+msgstr ""
+
+#. Search Files results dialog
+#: src/ui/searchwindow.ui:52
+msgid "Search results for:"
+msgstr ""
+
+#. Search Files results dialog
+#: src/ui/searchwindow.ui:89
+msgid "Result"
+msgstr ""
+
+#. Search Files results dialog
+#: src/ui/searchwindow.ui:105
+msgid "Document"
+msgstr ""
+
+#. Search Files results dialog
+#: src/ui/searchwindow.ui:122
+msgid "Type"
+msgstr ""
+
+#. Left headings panel
+#: src/ui/source.ui:70
+msgid "Headings"
+msgstr ""
+
+#. Left headings panel
+#: src/ui/source.ui:101
+msgid "Heading depth"
+msgstr ""
+
+#. Play Menu
+#: src/ui/story.ui:35
+msgid "Compile and run the story"
+msgstr ""
+
+#. Main toolbar
+#: src/ui/story.ui:37
+msgid "_Go!"
+msgstr ""
+
+#. Replay Menu
+#: src/ui/story.ui:50
+msgid "Compile the story, and re-run to the previously active play point"
+msgstr ""
+
+#. Main toolbar
+#: src/ui/story.ui:52
+msgid "Replay"
+msgstr ""
+
+#. Toolbar
+#: src/ui/story.ui:65
+msgid "Stop the story that's currently running"
+msgstr ""
+
+#: src/ui/story.ui:67
+msgid "_Stop"
+msgstr ""
+
+#. Toolbar
+#: src/ui/story.ui:90
+msgid "Compile the story ready for release"
+msgstr ""
+
+#: src/ui/story.ui:92
+msgid "_Release"
+msgstr ""
+
+#. Help Menu
+#: src/ui/story.ui:147
+msgid "Show the documentation's table of contents"
+msgstr ""
+
+#. Main toolbar
+#: src/ui/story.ui:149
+msgid "_Help"
+msgstr ""
+
+#. Notepad window
+#: src/ui/story.ui:161
+msgid "Notepad"
+msgstr ""
+
+#. Skein trim dialog
+#: src/ui/story.ui:200
+msgid "Trim the skein"
+msgstr ""
+
+#. Skein trim dialog
+#: src/ui/story.ui:257
+msgid ""
+"This will remove nodes from the skein and transcript that have not been "
+"visited recently, and which have not been locked. Drag the slider to the "
+"right to increase the number of nodes that will be deleted.\n"
+"\n"
+"This operation cannot be undone."
+msgstr ""
+
+#. Skein trim dialog
+#: src/ui/story.ui:277
+msgid "_Trim a little"
+msgstr ""
+
+#. Skein trim dialog
+#: src/ui/story.ui:291
+msgid "Trim a lot"
+msgstr ""
+
+#. Skein spacing options dialog
+#: src/ui/story.ui:338
+msgid "Skein spacing options"
+msgstr ""
+
+#. Skein spacing options dialog
+#: src/ui/story.ui:357
+msgid "_Use defaults"
+msgstr ""
+
+#. Skein spacing options dialog
+#: src/ui/story.ui:411
+msgid "<b>Edit the spacing for items in the skein</b>"
+msgstr ""
+
+#. Skein spacing options dialog
+#: src/ui/story.ui:463
+msgid "_Horizontal spacing"
+msgstr ""
+
+#. Skein spacing options dialog
+#: src/ui/story.ui:476
+msgid "_Vertical spacing"
+msgstr ""
+
+#. Splash window
+#: src/ui/welcomedialog.ui:24
+msgid "Welcome to Inform 7"
+msgstr ""
+
+#. Splash window - Watch out with this string; it has to fit in the space of the welcome dialog splash graphic. You may need to test the application a few times to get it right.
+#: src/ui/welcomedialog.ui:43
+msgid ""
+"Welcome to Inform 7, a design system for interactive fiction based on "
+"natural language.\n"
+"\n"
+"Inform 7 was created by Graham Nelson, with the help of Emily Short and many "
+"others. The Gnome front-end was written by Philip Chimento."
+msgstr ""
+
+#. Splash window
+#: src/ui/welcomedialog.ui:68
+msgid "Start a _new project"
+msgstr "_Nieuw project beginnen"
+
+#. Splash window
+#: src/ui/welcomedialog.ui:84
+msgid "_Open an existing project"
+msgstr "Bestaand project _openen"
+
+#. Splash window
+#: src/ui/welcomedialog.ui:100
+msgid "_Reopen last project"
+msgstr "Ve_rder met vorig project"
+
+#. (itstool) path: inform.xml/style-scheme@_name
+#: inform.xml:24
+msgid "Inform"
+msgstr "Inform"
+
+#. (itstool) path: style-scheme/_description
+#: inform.xml:26
+msgid ""
+"Default color scheme for Inform 7, based on the default OS X color scheme"
+msgstr ""
+
+#. (itstool) path: monochrome.xml/style-scheme@_name
+#: monochrome.xml:22
+msgid "Monochrome"
+msgstr ""
+
+#. (itstool) path: style-scheme/_description
+#: monochrome.xml:24
+msgid "Black, white, and gray"
+msgstr ""
+
+#. (itstool) path: plain.xml/style-scheme@_name
+#: plain.xml:22
+msgid "Plain"
+msgstr ""
+
+#. (itstool) path: style-scheme/_description
+#: plain.xml:24
+msgid "Just plain text, no styling"
+msgstr ""
+
+#. (itstool) path: psychedelic.xml/style-scheme@_name
+#: psychedelic.xml:23
+msgid "Psychedelic"
+msgstr "Psychedelisch"
+
+#. (itstool) path: style-scheme/_description
+#: psychedelic.xml:25
+msgid "Based on the OS X \"Psychedelic\" color scheme"
+msgstr ""
+
+#. (itstool) path: subdued.xml/style-scheme@_name
+#: subdued.xml:23
+msgid "Subdued"
+msgstr ""
+
+#. (itstool) path: style-scheme/_description
+#: subdued.xml:25
+msgid "Based on the OS X \"Subdued\" color scheme"
+msgstr ""
+
+#. (itstool) path: subtle.xml/style-scheme@_name
+#: subtle.xml:23
+msgid "Subtle"
+msgstr ""
+
+#. (itstool) path: style-scheme/_description
+#: subtle.xml:25
+msgid "Similar to Subdued, but with more subtle font styling"
+msgstr ""
+
+#. (itstool) path: mime-type/comment
+#: inform7.xml.in:5
+msgid "Inform 7 project"
+msgstr "Inform 7 project"
+
+#. (itstool) path: mime-type/comment
+#: inform7.xml.in:10
+msgid "Inform 7 project Materials folder"
+msgstr "Mediamap van Inform 7 project"
+
+#. (itstool) path: mime-type/comment
+#: inform7.xml.in:16
+msgid "Inform 7 Skein file"
+msgstr ""
+
+#. (itstool) path: mime-type/comment
+#: inform7.xml.in:21
+msgid "Inform 6 source code"
+msgstr "Inform 6 broncode"
+
+#. (itstool) path: mime-type/comment
+#: inform7.xml.in:27
+msgid "Natural Inform source code"
+msgstr ""
+
+#. (itstool) path: mime-type/comment
+#: inform7.xml.in:33
+msgid "Inform 7 extension file"
+msgstr "Inform 7 uitbreidingsbestand"
+
+#. (itstool) path: mime-type/comment
+#: inform7.xml.in:38
+msgid "Blurb contents file"
+msgstr ""
+
+#: com.inform7.IDE.desktop.in:7
+msgid "Write interactive fiction"
+msgstr "Interactieve verhalen schrijven"
+
+#: com.inform7.IDE.desktop.in:8
+#, fuzzy
+msgid "com.inform7.IDE"
+msgstr "inform7"

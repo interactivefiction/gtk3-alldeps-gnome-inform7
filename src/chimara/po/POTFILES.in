@@ -1,0 +1,9 @@
+# List of source files containing translatable strings.
+
+libchimara/ui-buffer.c
+libchimara/ui-misc.c
+player/callbacks.c
+player/main.c
+player/preferences.c
+player/resources/chimara.ui
+player/resources/gtk/menus.ui

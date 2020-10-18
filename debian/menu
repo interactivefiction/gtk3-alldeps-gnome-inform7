@@ -1,0 +1,2 @@
+?package(gnome-inform7):needs="X11" section="Applications/Programming"\
+  title="Inform 7" command="gnome-inform7"

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (C) 2008, 2010 P. F. Chimento
+ This file is part of GNOME Inform 7.
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<language id="inform7x" _name="Natural Inform Extension" version="2.0" 
+_section="Sources">
+    <metadata>
+        <property name="mimetypes">text/x-natural-inform-extension</property>
+        <property name="globs">*.i7x</property>
+        <property name="block-comment-start">[</property>
+        <property name="block-comment-end">]</property>
+    </metadata>
+    
+    <styles>
+        <style id="heading" _name="Heading" map-to="inform7:heading"/>
+        <style id="comment" _name="Comment" map-to="inform7:comment"/>
+    </styles>
+    
+    <default-regex-options case-sensitive="false"/>
+    
+    <definitions>
+    	<!-- Don't use a character class here, apparently the regex engine is
+    	not unicode-aware, and so the left and right quotes are more than one
+    	character-->
+    	<define-regex id="quote">&quot;|\x{201c}|\x{201d}</define-regex>
+        <context id="inform7x">
+            <include>
+            
+                <context id="begins-here-heading" style-ref="heading" 
+                first-line-only="true" once-only="true">
+                    <match>^\s*(version\s.+\sof\s+)?(the\s+)?.+\sby\s.+\sbegins?\s+here\.?\s*$</match>
+                </context>
+                
+                <context id="ends-here-heading" style-ref="heading" 
+                once-only="true">
+                    <match>^.+\sends?\s+here\.?$</match>
+                </context>
+                
+                <context id="documentation" style-ref="comment" 
+                once-only="true">
+                    <start>^----</start>
+                </context>
+                
+                <context ref="inform7:string"/>
+                <context ref="inform7:block-comment"/>
+                <context ref="inform7:heading"/>
+                <context ref="inform7:i6code"/>
+            
+            </include>
+        </context>
+    </definitions>
+</language>

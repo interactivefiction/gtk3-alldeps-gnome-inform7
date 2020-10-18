@@ -1,0 +1,102 @@
+gnome-inform7 (6M62-0ubuntu1) wily; urgency=low
+
+  * Updated to 6M62.
+
+ -- Philip Chimento <philip.chimento@gmail.com>  Mon, 11 Jan 2016 23:09:00 -0800
+
+gnome-inform7 (6L38-0ubuntu1) trusty; urgency=low
+
+  * Updated to 6L38.
+
+ -- Philip Chimento <philip.chimento@gmail.com>  Sun, 07 Sep 2014 19:29:36 -0700
+
+gnome-inform7 (6L02-0ubuntu1) trusty; urgency=low
+
+  * Updated to 6L02.
+  * debian/compat: Use debhelper version 9.
+  * debian/control: Conform to standards version 3.9.4.
+  * debian/control: Update and minimize build dependencies.
+  * debian/copyright: Change to machine-readable copyright format.
+  * debian/rules: Use debhelper instead of CDBS.
+  * debian/source/format: Use 3.0 quilt format.
+
+ -- Philip Chimento <philip.chimento@gmail.com>  Wed, 07 May 2014 23:35:08 -0700
+
+gnome-inform7 (6G60-0ubuntu2) natty; urgency=low
+
+  * Repackaged for 11.04 to avoid dependency error.
+  
+ -- P. F. Chimento <philip.chimento@gmail.com>  Wed, 04 May 2011 14:54:38 +0200
+
+gnome-inform7 (6G60-0ubuntu1) maverick; urgency=low
+
+  * Updated to 6G60.
+  
+ -- P. F. Chimento <philip.chimento@gmail.com>  Fri, 14 Jan 2011 00:41:22 +0100 
+
+gnome-inform7 (6F95-0ubuntu1) maverick; urgency=low
+
+  * Updated to 6F95.
+  
+ -- P. F. Chimento <philip.chimento@gmail.com>  Tue, 26 Oct 2010 22:44:22 +0200
+
+gnome-inform7 (6E72-0ubuntu2) lucid; urgency=low
+
+  * Updates to interpreters.
+
+ -- P. F. Chimento <philip.chimento@gmail.com>  Sat, 02 Oct 2010 18:38:41 +0200 
+
+gnome-inform7 (6E72-0ubuntu1) lucid; urgency=low
+
+  * Updated to 6E72.
+  * debian/control: Removed libglade2-dev from dependencies.
+  * debian/copyright: Updated copyright year to 2010, removed useless comments.
+
+ -- P. F. Chimento <philip.chimento@gmail.com>  Sun, 04 Jul 2010 11:04:07 -0400 
+
+gnome-inform7 (6E59-0ubuntu1) lucid; urgency=low
+
+  * debian/control: Changed description.
+  * Updated to 6E59.
+  
+ -- P. F. Chimento <philip.chimento@gmail.com>  Thu, 24 Jun 2010 20:42:53 -0400 
+
+gnome-inform7 (5Z71-0ubuntu2) jaunty; urgency=low
+
+  * Repackaged because they bumped the stupid OSSP UUID library version number
+    in 9.04.
+
+ -- P. F. Chimento <philip.chimento@gmail.com>  Fri, 24 Apr 2009 01:30:43 +0200
+
+gnome-inform7 (5Z71-0ubuntu1) intrepid; urgency=low
+
+  * Updated to 5Z71.
+  
+ -- P. F. Chimento <philip.chimento@gmail.com>  Fri, 17 Apr 2009 00:04:29 +0200 
+
+gnome-inform7 (5U92.1-0ubuntu1) intrepid; urgency=low
+
+  * Updated to 5U92.1.
+  * debian/control: Added libsdl-sound1.2-dev to build dependencies.
+
+ -- P. F. Chimento <philip.chimento@gmail.com>  Mon, 08 Dec 2008 17:43:26 +0100 
+
+gnome-inform7 (5U92-0ubuntu3) hardy; urgency=low
+
+  * debian/control: Change Architecture to 'any' to allow building on other
+    architectures.
+
+ -- Christopher Armstrong <radix@ubuntu.com>  Fri, 03 Oct 2008 19:12:37 -0400
+
+gnome-inform7 (5U92-0ubuntu2) hardy; urgency=high
+
+  * Fix the gconf schemas installing script.
+
+ -- P. F. Chimento <philip.chimento@gmail.com>  Mon, 15 Sep 2008 20:06:27 +0200
+
+gnome-inform7 (5U92-0ubuntu1) hardy; urgency=low
+
+  * Initial release.
+
+ -- P. F. Chimento <philip.chimento@gmail.com>  Sun, 14 Sep 2008 17:31:50 +0200
+

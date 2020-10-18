@@ -1,0 +1,730 @@
+<SECTION>
+<FILE>chimara-glk</FILE>
+<INCLUDE>libchimara/chimara-glk.h</INCLUDE>
+<TITLE>ChimaraGlk</TITLE>
+ChimaraGlk
+ChimaraError
+CHIMARA_ERROR
+chimara_error_quark
+ChimaraResourceLoadFunc
+ChimaraResourceType
+ChimaraGlkWindowType
+chimara_glk_new
+chimara_glk_set_interactive
+chimara_glk_get_interactive
+chimara_glk_set_protect
+chimara_glk_get_protect
+chimara_glk_set_spacing
+chimara_glk_get_spacing
+chimara_glk_set_css_to_default
+chimara_glk_set_css_from_file
+chimara_glk_set_css_from_string
+chimara_glk_run
+chimara_glk_run_file
+chimara_glk_stop
+chimara_glk_wait
+chimara_glk_unload_plugin
+chimara_glk_get_running
+chimara_glk_feed_char_input
+chimara_glk_feed_line_input
+chimara_glk_is_char_input_pending
+chimara_glk_is_line_input_pending
+chimara_glk_get_tag
+chimara_glk_get_tag_names
+chimara_glk_set_resource_load_callback
+<SUBSECTION Standard>
+CHIMARA_GLK
+CHIMARA_IS_GLK
+CHIMARA_TYPE_GLK
+chimara_glk_get_type
+CHIMARA_GLK_CLASS
+CHIMARA_IS_GLK_CLASS
+CHIMARA_GLK_GET_CLASS
+</SECTION>
+
+<SECTION>
+<FILE>chimara-if</FILE>
+<INCLUDE>libchimara/chimara-if.h</INCLUDE>
+ChimaraIFFormat
+ChimaraIFInterpreter
+ChimaraIFZmachineVersion
+<TITLE>ChimaraIF</TITLE>
+ChimaraIF
+chimara_if_new
+chimara_if_set_preferred_interpreter
+chimara_if_get_preferred_interpreter
+chimara_if_run_game
+chimara_if_run_game_file
+chimara_if_get_format
+chimara_if_get_interpreter
+<SUBSECTION Standard>
+CHIMARA_IF
+CHIMARA_IS_IF
+CHIMARA_TYPE_IF
+chimara_if_get_type
+CHIMARA_IF_CLASS
+CHIMARA_IS_IF_CLASS
+CHIMARA_IF_GET_CLASS
+</SECTION>
+
+<INCLUDE>libchimara/glk.h</INCLUDE>
+
+<SECTION>
+<FILE>glk-exiting</FILE>
+<TITLE>Exiting Your Program</TITLE>
+glk_exit
+<SUBSECTION Private>
+glk_main
+</SECTION>
+
+<SECTION>
+<FILE>glk-interrupt</FILE>
+<TITLE>The Interrupt Handler</TITLE>
+glk_set_interrupt_handler
+</SECTION>
+
+<SECTION>
+<FILE>glk-tick</FILE>
+<TITLE>The Tick Thing</TITLE>
+glk_tick
+</SECTION>
+
+<SECTION>
+<FILE>glk-types</FILE>
+<TITLE>Basic Types</TITLE>
+glui32
+glsi32
+</SECTION>
+
+<SECTION>
+<FILE>glk-opaque-objects</FILE>
+<TITLE>Opaque Objects</TITLE>
+winid_t
+strid_t
+frefid_t
+schanid_t
+</SECTION>
+
+<SECTION>
+<FILE>glk-gestalt</FILE>
+<TITLE>The Gestalt System</TITLE>
+glk_gestalt_ext
+glk_gestalt
+<SUBSECTION Constants>
+gestalt_Version
+gestalt_Unicode
+GLK_MODULE_UNICODE
+gestalt_UnicodeNorm
+GLK_MODULE_UNICODE_NORM
+gestalt_CharOutput
+gestalt_CharOutput_CannotPrint
+gestalt_CharOutput_ApproxPrint
+gestalt_CharOutput_ExactPrint
+gestalt_LineInput
+gestalt_LineInputEcho
+GLK_MODULE_LINE_ECHO
+gestalt_LineTerminators
+GLK_MODULE_LINE_TERMINATORS
+gestalt_LineTerminatorKey
+gestalt_CharInput
+gestalt_MouseInput
+gestalt_Timer
+gestalt_Graphics
+gestalt_DrawImage
+gestalt_Sound2
+gestalt_Sound
+gestalt_SoundVolume
+gestalt_SoundNotify
+gestalt_Hyperlinks
+gestalt_HyperlinkInput
+gestalt_SoundMusic
+gestalt_GraphicsTransparency
+gestalt_DateTime
+gestalt_ResourceStream
+GLK_MODULE_RESOURCE_STREAM
+</SECTION>
+
+<SECTION>
+<FILE>glk-character-input</FILE>
+<TITLE>Character Input</TITLE>
+keycode_Unknown
+keycode_Left
+keycode_Right
+keycode_Up
+keycode_Down
+keycode_Return
+keycode_Delete
+keycode_Escape
+keycode_Tab
+keycode_PageUp
+keycode_PageDown
+keycode_Home
+keycode_End
+keycode_Func1
+keycode_Func2
+keycode_Func3
+keycode_Func4
+keycode_Func5
+keycode_Func6
+keycode_Func7
+keycode_Func8
+keycode_Func9
+keycode_Func10
+keycode_Func11
+keycode_Func12
+<SUBSECTION Private>
+keycode_MAXVAL
+</SECTION>
+
+<SECTION>
+<FILE>glk-case</FILE>
+<TITLE>Upper and Lower Case</TITLE>
+glk_char_to_lower
+glk_char_to_upper
+glk_buffer_to_lower_case_uni
+glk_buffer_to_upper_case_uni
+glk_buffer_to_title_case_uni
+</SECTION>
+
+<SECTION>
+<FILE>glk-normalize</FILE>
+<TITLE>Unicode String Normalization</TITLE>
+glk_buffer_canon_decompose_uni
+glk_buffer_canon_normalize_uni
+</SECTION>
+
+<SECTION>
+<FILE>glk-window-opening</FILE>
+<TITLE>Window Opening, Closing, and Constraints</TITLE>
+glk_window_open
+winmethod_Left
+winmethod_Right
+winmethod_Above
+winmethod_Below
+winmethod_Fixed
+winmethod_Proportional
+winmethod_Border
+winmethod_NoBorder
+glk_window_close
+<SUBSECTION Private>
+winmethod_DirMask
+winmethod_DivisionMask
+winmethod_BorderMask
+</SECTION>
+
+<SECTION>
+<FILE>glk-window-constraints</FILE>
+<TITLE>Changing Window Constraints</TITLE>
+glk_window_get_size
+glk_window_set_arrangement
+glk_window_get_arrangement
+</SECTION>
+
+<SECTION>
+<FILE>glk-window-types</FILE>
+<TITLE>The Types of Windows</TITLE>
+wintype_Blank
+wintype_Pair
+wintype_TextBuffer
+wintype_TextGrid
+glk_window_move_cursor
+wintype_Graphics
+wintype_AllTypes
+</SECTION>
+
+<SECTION>
+<FILE>glk-echo-streams</FILE>
+<TITLE>Echo Streams</TITLE>
+glk_window_set_echo_stream
+glk_window_get_echo_stream
+</SECTION>
+
+<SECTION>
+<FILE>glk-window-other</FILE>
+<TITLE>Other Window Functions</TITLE>
+glk_window_iterate
+glk_window_get_rock
+glk_window_get_type
+glk_window_get_parent
+glk_window_get_sibling
+glk_window_get_root
+glk_window_clear
+glk_window_get_stream
+glk_set_window
+</SECTION>
+
+<SECTION>
+<FILE>glk-events</FILE>
+<TITLE>Events</TITLE>
+glk_select
+event_t
+glk_select_poll
+<SUBSECTION Constants>
+evtype_None
+evtype_Timer
+evtype_CharInput
+evtype_LineInput
+evtype_MouseInput
+evtype_Arrange
+evtype_Redraw
+evtype_SoundNotify
+evtype_Hyperlink
+evtype_VolumeNotify
+</SECTION>
+
+<SECTION>
+<FILE>glk-character-input-events</FILE>
+<TITLE>Character Input Events</TITLE>
+glk_request_char_event
+glk_request_char_event_uni
+glk_cancel_char_event
+</SECTION>
+
+<SECTION>
+<FILE>glk-line-input-events</FILE>
+<TITLE>Line Input Events</TITLE>
+glk_request_line_event
+glk_request_line_event_uni
+glk_cancel_line_event
+glk_set_echo_line_event
+glk_set_terminators_line_event
+</SECTION>
+
+<SECTION>
+<FILE>glk-mouse-events</FILE>
+<TITLE>Mouse Input Events</TITLE>
+glk_request_mouse_event
+glk_cancel_mouse_event
+</SECTION>
+
+<SECTION>
+<FILE>glk-timer-events</FILE>
+<TITLE>Timer Events</TITLE>
+glk_request_timer_events
+</SECTION>
+
+<SECTION>
+<FILE>glk-streams</FILE>
+<TITLE>Streams</TITLE>
+glk_stream_set_current
+glk_stream_get_current
+<SUBSECTION Constants>
+filemode_Write
+filemode_Read
+filemode_ReadWrite
+filemode_WriteAppend
+</SECTION>
+
+<SECTION>
+<FILE>glk-print</FILE>
+<TITLE>How to Print</TITLE>
+glk_put_char
+glk_put_string
+glk_put_buffer
+glk_put_char_stream
+glk_put_string_stream
+glk_put_buffer_stream
+glk_put_char_uni
+glk_put_string_uni
+glk_put_buffer_uni
+glk_put_char_stream_uni
+glk_put_string_stream_uni
+glk_put_buffer_stream_uni
+</SECTION>
+
+<SECTION>
+<FILE>glk-read</FILE>
+<TITLE>How to Read</TITLE>
+glk_get_char_stream
+glk_get_buffer_stream
+glk_get_line_stream
+glk_get_char_stream_uni
+glk_get_buffer_stream_uni
+glk_get_line_stream_uni
+</SECTION>
+
+<SECTION>
+<FILE>glk-closing-streams</FILE>
+<TITLE>Closing Streams</TITLE>
+glk_stream_close
+stream_result_t
+</SECTION>
+
+<SECTION>
+<FILE>glk-stream-positions</FILE>
+<TITLE>Stream Positions</TITLE>
+glk_stream_set_position
+glk_stream_get_position
+<SUBSECTION Constants>
+seekmode_Start
+seekmode_Current
+seekmode_End
+</SECTION>
+
+<SECTION>
+<FILE>glk-styles</FILE>
+<TITLE>Styles</TITLE>
+glk_set_style
+glk_set_style_stream
+<SUBSECTION Constants>
+style_Normal
+style_Emphasized
+style_Preformatted
+style_Header
+style_Subheader
+style_Alert
+style_Note
+style_BlockQuote
+style_Input
+style_User1
+style_User2
+<SUBSECTION Private>
+style_NUMSTYLES
+</SECTION>
+
+<SECTION>
+<FILE>glk-stylehints</FILE>
+<TITLE>Suggesting the Appearance of Styles</TITLE>
+glk_stylehint_set
+glk_stylehint_clear
+<SUBSECTION Constants>
+stylehint_Indentation
+stylehint_ParaIndentation
+stylehint_Justification
+stylehint_Size
+stylehint_Weight
+stylehint_Oblique
+stylehint_Proportional
+stylehint_TextColor
+stylehint_BackColor
+stylehint_ReverseColor
+stylehint_just_LeftFlush
+stylehint_just_LeftRight
+stylehint_just_Centered
+stylehint_just_RightFlush
+<SUBSECTION Private>
+stylehint_NUMHINTS
+</SECTION>
+
+<SECTION>
+<FILE>glk-style-measure</FILE>
+<TITLE>Testing the Appearance of Styles</TITLE>
+glk_style_distinguish
+glk_style_measure
+</SECTION>
+
+<SECTION>
+<FILE>glk-stream-types</FILE>
+<TITLE>The Types of Streams</TITLE>
+glk_stream_open_memory
+glk_stream_open_memory_uni
+glk_stream_open_file
+glk_stream_open_file_uni
+glk_stream_open_resource
+glk_stream_open_resource_uni
+</SECTION>
+
+<SECTION>
+<FILE>glk-stream-other</FILE>
+<TITLE>Other Stream Functions</TITLE>
+glk_stream_iterate
+glk_stream_get_rock
+</SECTION>
+
+<SECTION>
+<FILE>glk-fileref</FILE>
+<TITLE>File References</TITLE>
+fileusage_Data
+fileusage_SavedGame
+fileusage_Transcript
+fileusage_InputRecord
+fileusage_TextMode
+fileusage_BinaryMode
+<SUBSECTION Private>
+fileusage_TypeMask
+</SECTION>
+
+<SECTION>
+<FILE>glk-fileref-types</FILE>
+<TITLE>The Types of File References</TITLE>
+glk_fileref_create_temp
+glk_fileref_create_by_prompt
+glk_fileref_create_by_name
+glk_fileref_create_from_fileref
+</SECTION>
+
+<SECTION>
+<FILE>glk-fileref-other</FILE>
+<TITLE>Other File Reference Functions</TITLE>
+glk_fileref_destroy
+glk_fileref_iterate
+glk_fileref_get_rock
+glk_fileref_delete_file
+glk_fileref_does_file_exist
+</SECTION>
+
+<SECTION>
+<FILE>glk-image-resources</FILE>
+<TITLE>Image Resources</TITLE>
+glk_image_get_info
+glk_image_draw
+glk_image_draw_scaled
+</SECTION>
+
+<SECTION>
+<FILE>glk-graphics-windows</FILE>
+<TITLE>Graphics in Graphics Windows</TITLE>
+glk_window_set_background_color
+glk_window_fill_rect
+glk_window_erase_rect
+</SECTION>
+
+<SECTION>
+<FILE>glk-graphics-text</FILE>
+<TITLE>Graphics in Text Buffer Windows</TITLE>
+glk_window_flow_break
+<SUBSECTION Constants>
+imagealign_InlineUp
+imagealign_InlineDown
+imagealign_InlineCenter
+imagealign_MarginLeft
+imagealign_MarginRight
+</SECTION>
+
+<SECTION>
+<FILE>glk-graphics-testing</FILE>
+<TITLE>Testing for Graphics Capabilities</TITLE>
+GLK_MODULE_IMAGE
+</SECTION>
+
+<SECTION>
+<FILE>glk-sound-channels</FILE>
+<TITLE>Creating and Destroying Sound Channels</TITLE>
+glk_schannel_create
+glk_schannel_create_ext
+glk_schannel_destroy
+</SECTION>
+
+<SECTION>
+<FILE>glk-playing-sounds</FILE>
+<TITLE>Playing Sounds</TITLE>
+glk_schannel_play
+glk_schannel_play_ext
+glk_schannel_play_multi
+glk_schannel_stop
+glk_schannel_pause
+glk_schannel_unpause
+glk_schannel_set_volume
+glk_schannel_set_volume_ext
+glk_sound_load_hint
+</SECTION>
+
+<SECTION>
+<FILE>glk-sound-other</FILE>
+<TITLE>Other Sound Channel Functions</TITLE>
+glk_schannel_iterate
+glk_schannel_get_rock
+</SECTION>
+
+<SECTION>
+<FILE>glk-sound-testing</FILE>
+<TITLE>Testing for Sound Capabilities</TITLE>
+GLK_MODULE_SOUND
+GLK_MODULE_SOUND2
+</SECTION>
+
+<SECTION>
+<FILE>glk-creating-hyperlinks</FILE>
+<TITLE>Creating Hyperlinks</TITLE>
+glk_set_hyperlink
+glk_set_hyperlink_stream
+</SECTION>
+
+<SECTION>
+<FILE>glk-accepting-hyperlinks</FILE>
+<TITLE>Accepting Hyperlink Events</TITLE>
+glk_request_hyperlink_event
+glk_cancel_hyperlink_event
+</SECTION>
+
+<SECTION>
+<FILE>glk-hyperlinks-testing</FILE>
+<TITLE>Testing for Hyperlink Capabilities</TITLE>
+GLK_MODULE_HYPERLINKS
+</SECTION>
+
+<SECTION>
+<FILE>glk-clock</FILE>
+<TITLE>The System Clock</TITLE>
+glktimeval_t
+glk_current_time
+glk_current_simple_time
+</SECTION>
+
+<SECTION>
+<FILE>glk-clock-conversions</FILE>
+<TITLE>Time and Date Conversions</TITLE>
+glkdate_t
+glk_time_to_date_utc
+glk_time_to_date_local
+glk_simple_time_to_date_utc
+glk_simple_time_to_date_local
+glk_date_to_time_utc
+glk_date_to_time_local
+glk_date_to_simple_time_utc
+glk_date_to_simple_time_local
+</SECTION>
+
+<SECTION>
+<FILE>glk-clock-testing</FILE>
+<TITLE>Testing for Clock Capabilities</TITLE>
+GLK_MODULE_DATETIME
+</SECTION>
+
+<INCLUDE>libchimara/glk.h, libchimara/gi-dispa.h</INCLUDE>
+
+<SECTION>
+<FILE>dispatch-interrogating</FILE>
+<TITLE>Interrogating the Interface</TITLE>
+gidispatch_count_classes
+gidispatch_get_class
+gidispatch_count_intconst
+gidispatch_get_intconst
+gidispatch_intconst_t
+gidispatch_count_functions
+gidispatch_get_function
+gidispatch_function_t
+gidispatch_get_function_by_id
+<SUBSECTION Constants>
+gidisp_Class_Window
+gidisp_Class_Stream
+gidisp_Class_Fileref
+gidisp_Class_Schannel
+</SECTION>
+
+<SECTION>
+<FILE>dispatch-dispatching</FILE>
+<TITLE>Dispatching</TITLE>
+gidispatch_call
+gluniversal_t
+</SECTION>
+
+<SECTION>
+<FILE>dispatch-prototypes</FILE>
+<TITLE>Getting Argument Prototypes</TITLE>
+gidispatch_prototype
+</SECTION>
+
+<SECTION>
+<FILE>dispatch-library-functions</FILE>
+<TITLE>Functions the Library Must Provide</TITLE>
+gidispatch_set_object_registry
+gidispatch_rock_t
+gidispatch_get_objrock
+gidispatch_set_retained_registry
+</SECTION>
+
+<INCLUDE>libchimara/glk.h, libchimara/gi-blorb.h</INCLUDE>
+
+<SECTION>
+<FILE>blorb-program</FILE>
+<TITLE>What the Program Does</TITLE>
+giblorb_set_resource_map
+giblorb_get_resource_map
+giblorb_map_t
+</SECTION>
+
+<SECTION>
+<FILE>blorb-layer</FILE>
+<TITLE>What the Blorb Layer Does</TITLE>
+giblorb_create_map
+giblorb_destroy_map
+giblorb_result_t
+giblorb_load_chunk_by_type
+giblorb_load_chunk_by_number
+giblorb_unload_chunk
+giblorb_load_resource
+giblorb_count_resources
+<SUBSECTION Constants>
+giblorb_method_DontLoad
+giblorb_method_Memory
+giblorb_method_FilePos
+giblorb_ID_Exec
+giblorb_ID_Snd
+giblorb_ID_Pict
+giblorb_ID_Data
+giblorb_ID_Copyright
+giblorb_ID_AUTH
+giblorb_ID_ANNO
+giblorb_ID_TEXT
+giblorb_ID_BINA
+<SUBSECTION Private>
+giblorb_make_id
+</SECTION>
+
+<SECTION>
+<FILE>blorb-errors</FILE>
+<TITLE>Blorb Errors</TITLE>
+giblorb_err_t
+<SUBSECTION Constants>
+giblorb_err_None
+giblorb_err_CompileTime
+giblorb_err_Alloc
+giblorb_err_Read
+giblorb_err_NotAMap
+giblorb_err_Format
+giblorb_err_NotFound
+</SECTION>
+
+<INCLUDE>libchimara/glk.h, libchimara/glkstart.h</INCLUDE>
+
+<SECTION>
+<FILE>glkext-startup</FILE>
+<TITLE>Startup Code</TITLE>
+glkunix_argumentlist_t
+glkunix_startup_t
+<SUBSECTION Constants>
+glkunix_arg_NoValue
+glkunix_arg_ValueFollows
+glkunix_arg_ValueCanFollow
+glkunix_arg_NumberValue
+glkunix_arg_End
+<SUBSECTION Private>
+glkunix_startup_code
+NULL
+</SECTION>
+
+<SECTION>
+<FILE>glkext-unix</FILE>
+<TITLE>Unix Extensions</TITLE>
+glkunix_stream_open_pathname_gen
+glkunix_stream_open_pathname
+glkunix_set_base_file
+</SECTION>
+
+<SECTION>
+<FILE>glkext-garglk</FILE>
+<TITLE>Gargoyle Extensions</TITLE>
+<INCLUDE>libchimara/glk.h, libchimara/garglk.h</INCLUDE>
+GARGLK
+<SUBSECTION Functions>
+garglk_fileref_get_name
+garglk_set_program_name
+garglk_set_program_info
+garglk_set_story_name
+garglk_set_story_title
+garglk_unput_string
+garglk_unput_string_uni
+garglk_set_zcolors
+garglk_set_zcolors_stream
+garglk_set_reversevideo
+garglk_set_reversevideo_stream
+<SUBSECTION Constants>
+zcolor_Current
+zcolor_Default
+zcolor_Cursor
+zcolor_Transparent
+keycode_Erase
+keycode_MouseWheelUp
+keycode_MouseWheelDown
+</SECTION>

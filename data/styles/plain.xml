@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (C) 2008, 2010 P. F. Chimento
+ This file is part of GNOME Inform 7.
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<style-scheme id="plain" _name="Plain" 
+version="1.0">
+    <author>P. F. Chimento</author>
+    <_description>Just plain text, no styling</_description>
+
+    <!-- GtkSourceView appearance styles-->
+    <style name="text"              />
+    <style name="bracket-match"     bold="true"/>
+    <style name="bracket-mismatch"  bold="true"/>
+    
+    <!-- Search Matching (not used) -->
+    <style name="search-match"      />  
+
+    <!-- Others -->
+    <style name="def:error"           bold="true"/>
+    <style name="def:note"            bold="true"/>
+    <style name="def:underlined"      italic="true" underline="true"/>
+
+</style-scheme>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+
+  <mime-type type="application/x-inform">
+    <comment>Inform 7 project</comment>
+    <comment xml:lang="de">Inform 7 Projekt</comment>
+    <comment xml:lang="es">Proyecto de Inform 7</comment>
+    <comment xml:lang="fr">Projet Inform 7</comment>
+    <comment xml:lang="nl">Inform 7 project</comment>
+    <glob pattern="*.inform"/>
+  </mime-type>
+
+  <mime-type type="application/x-inform-materials">
+    <comment>Inform 7 project Materials folder</comment>
+    <comment xml:lang="de">Inform 7 Projekt Materialordner</comment>
+    <comment xml:lang="fr">Dossier de données de projet Inform 7</comment>
+    <comment xml:lang="nl">Mediamap van Inform 7 project</comment>
+    <glob pattern="*.materials"/>
+  </mime-type>
+
+  <mime-type type="application/x-inform-skein+xml">
+    <sub-class-of type="application/xml"/>
+    <comment>Inform 7 Skein file</comment>
+    <comment xml:lang="de">Inform 7 Skein-Datei</comment>
+    <comment xml:lang="fr">Fichier de d’arborescence Inform 7</comment>
+    <glob pattern="*.skein"/>
+  </mime-type>
+
+  <mime-type type="text/x-inform">
+    <comment>Inform 6 source code</comment>
+    <comment xml:lang="de">Inform 6 Quelltext</comment>
+    <comment xml:lang="fr">Code source Inform 6</comment>
+    <comment xml:lang="nl">Inform 6 broncode</comment>
+    <glob pattern="*.inf"/>
+    <glob pattern="*.i6"/>
+  </mime-type>
+
+  <mime-type type="text/x-natural-inform">
+    <comment>Natural Inform source code</comment>
+    <comment xml:lang="de">Natural Inform Quelltext</comment>
+    <comment xml:lang="fr">Code source Inform natif</comment>
+    <glob pattern="*.ni"/>
+    <glob pattern="*.i7"/>
+  </mime-type>
+
+  <mime-type type="text/x-natural-inform-extension">
+    <comment>Inform 7 extension file</comment>
+    <comment xml:lang="de">Inform 7 Erweiterungsdatei</comment>
+    <comment xml:lang="fr">Fichier d’extension Inform 7</comment>
+    <comment xml:lang="nl">Inform 7 uitbreidingsbestand</comment>
+    <glob pattern="*.i7x"/>
+  </mime-type>
+
+  <mime-type type="text/x-blurb">
+    <comment>Blurb contents file</comment>
+    <comment xml:lang="de">Blurb Inhaltsdatei</comment>
+    <comment xml:lang="fr">Fichier Blurb</comment>
+    <glob pattern="*.blurb"/>
+  </mime-type>
+
+</mime-info>
